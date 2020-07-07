@@ -1,5 +1,7 @@
 <template>
-    <Header />
+    <div class="bg-white">
+        <Header />
+    </div>
 </template>
 
 <script>

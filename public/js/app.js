@@ -1913,6 +1913,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -1931,6 +1933,30 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -6434,7 +6460,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".subnav .nav-item .nav-link[data-v-0a63ff23] {\n  font-family: \"Roboto-Light\", sans-serif;\n  color: #676767;\n}\n.subnav .nav-item .nav-link .fa-user[data-v-0a63ff23] {\n  background: #4d4d4d;\n  padding: 0.3em 0.4em;\n  color: #ffffff;\n}\n.top-brand .row[data-v-0a63ff23] {\n  justify-content: center;\n  align-items: center;\n}\n.top-brand .row .post-tag[data-v-0a63ff23] {\n  width: 10%;\n  -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n          clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n  background: #406df3;\n  color: #ffffff;\n  text-align: center;\n  padding: 2px 7px 10px;\n}\n.top-brand .row .caption[data-v-0a63ff23] {\n  font-size: 12px;\n  text-align: center;\n}\n@media (min-width: 992px) {\n.top-brand[data-v-0a63ff23] {\n    position: absolute;\n    top: 0;\n}\n.top-brand .row[data-v-0a63ff23] {\n    justify-content: end;\n}\n.top-brand .caption[data-v-0a63ff23] {\n    font-size: 1em !important;\n}\n}", ""]);
+exports.push([module.i, ".subnav .nav-link[data-v-0a63ff23] {\n  font-family: \"Roboto-Light\", sans-serif;\n  color: #676767;\n}\n.subnav .nav-link .fa-user[data-v-0a63ff23] {\n  background: #4d4d4d;\n  padding: 0.3em 0.4em;\n  color: #ffffff;\n}\n.caption[data-v-0a63ff23] {\n  overflow-wrap: break-word;\n}\n.top-brand .row[data-v-0a63ff23] {\n  justify-content: center;\n  align-items: center;\n}\n.top-brand .row .post-tag[data-v-0a63ff23] {\n  width: 10%;\n  -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n          clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n  background: #406df3;\n  color: #ffffff;\n  text-align: center;\n  padding: 2px 7px 14px;\n}\n.top-brand .row .caption[data-v-0a63ff23] {\n  color: #676767;\n  font-size: 12px;\n  text-align: center;\n}\n@media (min-width: 992px) {\n.top-brand[data-v-0a63ff23] {\n    position: absolute;\n    top: 0;\n}\n.top-brand .row[data-v-0a63ff23] {\n    justify-content: end;\n}\n.top-brand .caption[data-v-0a63ff23] {\n    font-size: 14px !important;\n}\n}", ""]);
 
 // exports
 
@@ -38180,7 +38206,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("Header")
+  return _c("div", { staticClass: "bg-white" }, [_c("Header")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38211,96 +38237,203 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "nav",
-      {
-        staticClass:
-          "navbar navbar-expand-lg navbar-light bg-light border-bottom top-nav"
-      },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "navbar-brand top-brand p-md-0" }, [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-md-1 post-tag" }, [
-                _c("i", {
-                  staticClass: "fa fa-tag",
-                  attrs: { "aria-hidden": "true" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-3 mt-1 caption" }, [
-                _vm._v(
-                  "\n                    Gratis Ebook 9 Cara Cerdas Menggunakan Domain[x]\n                "
-                )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c(
-            "button",
-            {
-              staticClass: "navbar-toggler",
-              attrs: {
-                type: "button",
-                "data-toggle": "collapse",
-                "data-target": "#navbarNavDropdown",
-                "aria-controls": "navbarNavDropdown",
-                "aria-expanded": "false",
-                "aria-label": "Toggle navigation"
-              }
-            },
-            [_c("span", { staticClass: "navbar-toggler-icon" })]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "collapse navbar-collapse",
-              attrs: { id: "navbarNavDropdown" }
-            },
-            [
-              _c("ul", { staticClass: "navbar-nav ml-auto subnav" }, [
-                _c("li", { staticClass: "nav-item" }, [
-                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                    _c("i", {
-                      staticClass: "fa fa-phone",
-                      attrs: { "aria-hidden": "true" }
-                    }),
-                    _vm._v(
-                      "\n                         0274-5305505\n                    "
-                    )
-                  ])
+    return _c("div", [
+      _c(
+        "nav",
+        {
+          staticClass:
+            "navbar navbar-expand-lg navbar-light border-bottom top-nav"
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "navbar-brand top-brand pt-md-0" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-1 post-tag" }, [
+                  _c("i", {
+                    staticClass: "fa fa-tag",
+                    attrs: { "aria-hidden": "true" }
+                  })
                 ]),
                 _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                    _c("i", {
-                      staticClass: "fa fa-comment",
-                      attrs: { "aria-hidden": "true" }
-                    }),
-                    _vm._v(
-                      "\n                         Live Chat\n                    "
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                    _c("i", {
-                      staticClass: "fa fa-user rounded-circle",
-                      attrs: { "aria-hidden": "true" }
-                    }),
-                    _vm._v(
-                      "\n                         Member Area\n                    "
-                    )
-                  ])
+                _c("div", { staticClass: "col-md-3 mt-1 caption" }, [
+                  _vm._v(
+                    "\n                        Gratis Ebook 9 Cara Cerdas Menggunakan Domain[x]\n                    "
+                  )
                 ])
               ])
-            ]
-          )
-        ])
-      ]
-    )
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "navbar-toggler",
+                attrs: {
+                  type: "button",
+                  "data-toggle": "collapse",
+                  "data-target": "#navbarNavDropdown",
+                  "aria-controls": "navbarNavDropdown",
+                  "aria-expanded": "false",
+                  "aria-label": "Toggle navigation"
+                }
+              },
+              [_c("span", { staticClass: "navbar-toggler-icon" })]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "collapse navbar-collapse",
+                attrs: { id: "navbarNavDropdown" }
+              },
+              [
+                _c("div", { staticClass: "navbar-nav ml-auto subnav" }, [
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-phone",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(
+                        "\n                         0274-5305505\n                    "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-comment",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(
+                        "\n                         Live Chat\n                    "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-user rounded-circle",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(
+                        "\n                         Member Area\n                    "
+                      )
+                    ]
+                  )
+                ])
+              ]
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "nav",
+        { staticClass: "navbar navbar-expand-lg navbar-light border-bottom" },
+        [
+          _c("div", { staticClass: "container pl-0" }, [
+            _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }, [
+              _vm._v("Niagahoster")
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "navbar-toggler",
+                attrs: {
+                  type: "button",
+                  "data-toggle": "collapse",
+                  "data-target": "#navbarNavAltMarkup",
+                  "aria-controls": "navbarNavAltMarkup",
+                  "aria-expanded": "false",
+                  "aria-label": "Toggle navigation"
+                }
+              },
+              [_c("span", { staticClass: "navbar-toggler-icon" })]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "collapse navbar-collapse",
+                attrs: { id: "navbarNavAltMarkup" }
+              },
+              [
+                _c("div", { staticClass: "navbar-nav ml-auto" }, [
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Hosting")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Domain")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Server")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Website")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Afiliasi")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Promo")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Pembayaran")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Review")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Kontak")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "nav-item nav-link", attrs: { href: "#" } },
+                    [_vm._v("Blog")]
+                  )
+                ])
+              ]
+            )
+          ])
+        ]
+      )
+    ])
   }
 ]
 render._withStripped = true
