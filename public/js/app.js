@@ -2133,8 +2133,64 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Footer"
+  name: "Footer",
+  data: function data() {
+    return {
+      paymentLogo: ["/assets/svg/payment/bca.svg", "/assets/svg/payment/mandiri.svg", "/assets/svg/payment/bni.svg", "/assets/svg/payment/visa.svg", "/assets/svg/payment/master-card.svg", "/assets/svg/payment/atm-bersama.svg", "/assets/svg/payment/permata.svg", "/assets/svg/payment/prima.svg", "/assets/svg/payment/alto.svg"]
+    };
+  },
+  created: function created() {
+    var img = new Image();
+  }
 });
 
 /***/ }),
@@ -6691,7 +6747,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "h5[data-v-2d9cc99e] {\n  color: #c4c4c4;\n  font-size: 20px;\n  font-weight: 700;\n  line-height: 24px;\n  text-transform: uppercase;\n  font-family: \"NunitoSansBold\", sans-serif;\n}\nul[data-v-2d9cc99e] {\n  margin-top: 30px;\n  list-style: none;\n  padding: 0;\n}\nul li[data-v-2d9cc99e],\nul a[data-v-2d9cc99e] {\n  color: #ffffff;\n  text-decoration: none;\n  font-family: \"NunitoSansRegular\", sans-serif;\n  line-height: 23px;\n}\nul li[data-v-2d9cc99e]:hover,\nul a[data-v-2d9cc99e]:hover {\n  color: #c4c4c4;\n  transition: 0.5s;\n  cursor: pointer;\n}\nul .form-newsletter[data-v-2d9cc99e] {\n  position: relative;\n}\nul .form-newsletter .btn[data-v-2d9cc99e] {\n  position: absolute;\n  bottom: 50%;\n  transform: translateY(50%);\n  right: 0.5rem;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e] {\n  padding-bottom: 1.5rem;\n  padding-top: 1.5rem;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::-moz-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]:-ms-input-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::-ms-input-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\n.footer-social-media ul[data-v-2d9cc99e] {\n  display: flex;\n  transform: translateY(50%);\n}\n.footer-social-media ul li[data-v-2d9cc99e] {\n  margin-right: 26px;\n}\n.footer-social-media ul li .btn[data-v-2d9cc99e] {\n  border: 2px solid #ffffff;\n  color: #ffffff;\n}\n.footer-social-media ul li .btn[data-v-2d9cc99e]:hover {\n  border-color: #949494;\n  background-color: #949494;\n  transition: 0.5s;\n}\n.payment ul[data-v-2d9cc99e] {\n  margin-top: 20px !important;\n}\n.payment ul li[data-v-2d9cc99e] {\n  margin-right: 10px !important;\n}\n.payment ul li .btn[data-v-2d9cc99e] {\n  border: 2px solid #ffffff;\n  color: #ffffff;\n}\n.payment ul li .btn[data-v-2d9cc99e]:hover {\n  border-color: #949494;\n  background-color: #949494;\n  transition: 0.5s;\n}\n.footer[data-v-2d9cc99e] {\n  padding-left: 0;\n  padding-right: 0;\n}\n.footer-content[data-v-2d9cc99e] {\n  text-align: center;\n}\n@media (min-width: 992px) {\n.footer-content[data-v-2d9cc99e] {\n    text-align: left;\n}\n}", ""]);
+exports.push([module.i, "h5[data-v-2d9cc99e] {\n  color: #c4c4c4;\n  font-size: 20px;\n  font-weight: 700;\n  line-height: 24px;\n  text-transform: uppercase;\n  font-family: \"NunitoSansBold\", sans-serif;\n}\nul[data-v-2d9cc99e] {\n  margin-top: 30px;\n  list-style: none;\n  padding: 0;\n}\nul li[data-v-2d9cc99e],\nul a[data-v-2d9cc99e] {\n  color: #ffffff;\n  text-decoration: none;\n  font-family: \"NunitoSansRegular\", sans-serif;\n  line-height: 23px;\n}\nul li[data-v-2d9cc99e]:hover,\nul a[data-v-2d9cc99e]:hover {\n  color: #c4c4c4;\n  transition: 0.5s;\n  cursor: pointer;\n}\nul .form-newsletter[data-v-2d9cc99e] {\n  position: relative;\n}\nul .form-newsletter .btn[data-v-2d9cc99e] {\n  position: absolute;\n  bottom: 50%;\n  transform: translateY(50%);\n  right: 0.5rem;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e] {\n  padding-bottom: 1.5rem;\n  padding-top: 1.5rem;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::-moz-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]:-ms-input-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::-ms-input-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\n.footer-social-media ul[data-v-2d9cc99e] {\n  display: flex;\n  transform: translateY(50%);\n}\n.footer-social-media ul li[data-v-2d9cc99e] {\n  margin-right: 26px;\n}\n.footer-social-media ul li .btn[data-v-2d9cc99e] {\n  border: 2px solid #ffffff;\n  color: #ffffff;\n}\n.footer-social-media ul li .btn[data-v-2d9cc99e]:hover {\n  border-color: #949494;\n  background-color: #949494;\n  transition: 0.5s;\n}\n.payment ul[data-v-2d9cc99e] {\n  margin-top: 20px !important;\n}\n.payment ul li[data-v-2d9cc99e] {\n  margin-right: 10px !important;\n}\n.payment ul li .btn[data-v-2d9cc99e] {\n  border: 2px solid #ffffff;\n  color: #ffffff;\n}\n.payment ul li .btn[data-v-2d9cc99e]:hover {\n  border-color: #949494;\n  background-color: #949494;\n  transition: 0.5s;\n}\n.footer[data-v-2d9cc99e] {\n  padding-left: 0;\n  padding-right: 0;\n}\n.footer-content[data-v-2d9cc99e] {\n  text-align: center;\n}\n.btn img[data-v-2d9cc99e] {\n  width: 50px;\n  height: 20px;\n  -webkit-filter: grayscale(100%);\n          filter: grayscale(100%);\n}\n@media (min-width: 992px) {\n.footer-content[data-v-2d9cc99e] {\n    text-align: left;\n}\n}", ""]);
 
 // exports
 
@@ -38501,6 +38557,313 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-clazy-load/dist/vue-clazy-load.js":
+/*!************************************************************!*\
+  !*** ./node_modules/vue-clazy-load/dist/vue-clazy-load.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(true)
+		module.exports = factory();
+	else {}
+})(typeof self !== 'undefined' ? self : this, function() {
+return /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "install", function() { return install; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VueClazyLoad", function() { return VueClazyLoad; });
+/*!
+ * Vue Clazy Load
+ * Component-based lazy (CLazy) load images in Vue.js 2
+ * @author Matheus Grieger
+ * @version 0.4.2
+ */
+var ClazyLoadComponent = {
+  name: 'ClazyLoad',
+  props: {
+    /**
+     * HTML/Component tag name to be used in place of the component
+     * @type {String}
+     * @default div
+     */
+    tag: {
+      type: String,
+      default: 'div'
+    },
+    /**
+     * Image source URL
+     * @type {String}
+     * @required
+     */
+    src: {
+      type: String,
+      required: true
+    },
+    /**
+     * IntersectionObserver root element
+     * @type {String}
+     */
+    element: String,
+    /**
+     * IntersectionObserver threshold
+     * @type {Array, Number}
+     */
+    threshold: {
+      type: [Array, Number],
+      default: function _default() {
+        return [0, 0.5, 1];
+      }
+    },
+    /**
+     * InserectionObserver visibility ratio
+     * @type {Number}
+     */
+    ratio: {
+      type: Number,
+      default: 0.4,
+      validator: function validator(value) {
+        // can't be less or equal to 0 and greater than 1
+        return value > 0 && value <= 1;
+      }
+    },
+    /**
+     * IntersectionObserver root margin
+     * @type {String}
+     */
+    margin: {
+      type: String,
+      default: '0px'
+    },
+    /**
+     * Optional CORS mode ("anonymous" | "use-credentials")
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-crossorigin
+     * @type {String}
+     */
+    crossorigin: {
+      type: String,
+      default: null,
+      validator: function validator(value) {
+        return value === 'anonymous' || value === 'use-credentials';
+      }
+    },
+    /**
+     * Class added to element when it finishes loading
+     * @type {String}
+     * @default loaded
+     */
+    loadedClass: {
+      type: String,
+      default: 'loaded'
+    },
+    /**
+     * Class added to element while it is loading
+     * @type {String}
+     */
+    loadingClass: {
+      type: String,
+      default: 'loading'
+    },
+    /**
+     * Class added to element if loading failed
+     * @type {String}
+     */
+    errorClass: {
+      type: String,
+      default: null
+    }
+  },
+  data: function data() {
+    return {
+      loaded: false,
+      observer: null,
+      errored: false
+    };
+  },
+
+  methods: {
+    /**
+     * Start loading image
+     */
+    load: function load() {
+      var _this = this;
+
+      // emits 'loading' event upwards
+      this.$emit('loading');
+
+      // disconnect observer
+      // so it doesn't load more than once
+      this.observer.disconnect();
+
+      if (!this.loaded) {
+        // fake image
+        var img = new Image();
+
+        img.addEventListener('load', function () {
+          _this.loaded = true;
+          // emits 'load' event upwards
+          _this.$emit('load');
+
+          _clear();
+        });
+
+        img.addEventListener('error', function (event) {
+          _this.errored = true;
+          // emits 'error' event upwards
+          // adds the original event as argument
+          _this.$emit('error', event);
+
+          _clear();
+        });
+
+        // function used to clear variables from memory
+        var _clear = function _clear() {
+          // discard fake image
+          img = null;
+          // remove observer from memory
+          _this.observer = null;
+        };
+
+        // CORS mode configuration
+        if (this.crossorigin !== null) {
+          img.crossOrigin = this.crossorigin;
+        }
+
+        img.src = this.src;
+      }
+    },
+
+
+    /**
+     * Creates IntersectionObserver instance and observe current element
+     */
+    observe: function observe() {
+      var _this2 = this;
+
+      var options = {
+        threshold: this.threshold,
+        root: this.element ? document.querySelector(this.element) : null,
+        rootMargin: this.margin
+
+        // creates IO instance
+      };this.observer = new IntersectionObserver(function (entries) {
+        // as we instantiated one for each component
+        // we can directly access the first index
+        if (entries[0].intersectionRatio >= _this2.ratio) {
+          _this2.load();
+        }
+      }, options);
+
+      // start observing main component
+      this.observer.observe(this.$el);
+    }
+  },
+  render: function render(h) {
+    // class to be added to element indicating load state
+    var elementClass = this.loaded ? this.loadedClass : this.loadingClass;
+
+    return h(this.tag, {
+      // if loading failed adds error class if exists,
+      // otherwhise adds elementClass defined above
+      class: this.errored && this.errorClass ? this.errorClass : elementClass
+    }, [this.loaded ? this.$slots.default || this.$slots.image // allows for "default" slot
+    : this.$slots.placeholder]);
+  },
+  mounted: function mounted() {
+    // start observing the element visibility
+    this.$nextTick(this.observe);
+  }
+};
+
+// Export install function for CDN embeds
+var install = function install(Vue) {
+  Vue.component('clazy-load', ClazyLoadComponent);
+};
+
+// Component object
+var VueClazyLoad = ClazyLoadComponent;
+
+// Exports default object for ES6 modules
+/* harmony default export */ __webpack_exports__["default"] = ({
+  install: install
+});
+
+/***/ })
+/******/ ]);
+});
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LayoutComponent.vue?vue&type=template&id=477ce850&":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LayoutComponent.vue?vue&type=template&id=477ce850& ***!
@@ -38545,451 +38908,391 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    {
+      staticClass:
+        "jumbotron footer mb-0 bg-dark rounded-0 d-flex align-items-center"
+    },
+    [
+      _c("div", { staticClass: "container" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "row mt-5" }, [
+          _c("div", { staticClass: "col-12 payment" }, [
+            _c("h5", [_vm._v("pembayaran")]),
+            _vm._v(" "),
+            _c(
+              "ul",
+              { staticClass: "d-flex" },
+              _vm._l(_vm.paymentLogo, function(payment, index) {
+                return _c("li", { key: index }, [
+                  _c(
+                    "button",
+                    { staticClass: "btn", attrs: { id: "i" } },
+                    [
+                      _c("clazy-load", { attrs: { src: payment } }, [
+                        _c("img", { attrs: { src: payment } }),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            attrs: { slot: "placeholder" },
+                            slot: "placeholder"
+                          },
+                          [
+                            _vm._v(
+                              "\n                                    Loading....\n                                "
+                            )
+                          ]
+                        )
+                      ])
+                    ],
+                    1
+                  )
+                ])
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "text-muted mt-3" }, [
+              _vm._v(
+                "\n                    Aktivasi instan dengan e-Payment. Hosting dan domain\n                    langsung aktif!\n                "
+              )
+            ])
+          ])
+        ])
+      ])
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "jumbotron footer mb-0 bg-dark rounded-0 d-flex align-items-center"
-      },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" }, [
+        _c("h5", [_vm._v("hubungi kami")]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "text-white" }, [
+          _c("li", [
+            _vm._v("\n                        Telp:\n                        "),
+            _c("a", { attrs: { href: "tel:+62742885822" } }, [
+              _vm._v("0274-2885822")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Senin - Minggu")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("24 Jam Nonstop")]),
+          _vm._v(" "),
+          _c("li", { staticClass: "mt-3" }, [
+            _vm._v("Jl. Selokan Mataram Monjali")
+          ]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Karangjati")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Sinduadi, Mlati, Sleman")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Yogyakarta 55284")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" }, [
+        _c("h5", [_vm._v("Layanan")]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", [
             _c(
-              "div",
-              { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" },
-              [
-                _c("h5", [_vm._v("hubungi kami")]),
-                _vm._v(" "),
-                _c("ul", { staticClass: "text-white" }, [
-                  _c("li", [
-                    _vm._v("\n            Telp:\n            "),
-                    _c("a", { attrs: { href: "tel:+62742885822" } }, [
-                      _vm._v("0274-2885822")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Senin - Minggu")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("24 Jam Nonstop")]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "mt-3" }, [
-                    _vm._v("Jl. Selokan Mataram Monjali")
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Karangjati")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Sinduadi, Mlati, Sleman")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Yogyakarta 55284")])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" },
-              [
-                _c("h5", [_vm._v("Layanan")]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href: "https://www.niagahoster.co.id/domain-murah"
-                        }
-                      },
-                      [_vm._v("Domain")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href:
-                            "https://www.niagahoster.co.id/hosting-indonesia"
-                        }
-                      },
-                      [_vm._v("Shared Hosting")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href:
-                            "https://www.niagahoster.co.id/cloud-vps-hosting"
-                        }
-                      },
-                      [_vm._v("Cloud VPS Hosting")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href:
-                            "https://www.niagahoster.co.id/cloud-vps-hosting"
-                        }
-                      },
-                      [_vm._v("Managed VPS Hosting")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href:
-                            "https://www.niagahoster.co.id/membuat-blog-weebly"
-                        }
-                      },
-                      [_vm._v("Web Builder")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href: "https://www.niagahoster.co.id/ssl-murah"
-                        }
-                      },
-                      [_vm._v("Keamanan SSL/HTTPS")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      { attrs: { href: "https://www.niagaweb.co.id/" } },
-                      [_vm._v("Jasa Pembuatan Website")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href: "https://www.niagahoster.co.id/afiliasi"
-                        }
-                      },
-                      [_vm._v("Program Afiliasi")]
-                    )
-                  ])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" },
-              [
-                _c("h5", [_vm._v("Service Hosting")]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href: "https://www.niagahoster.co.id/hosting-murah"
-                        }
-                      },
-                      [_vm._v("Hosting Murah")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href:
-                            "https://www.niagahoster.co.id/hosting-indonesia"
-                        }
-                      },
-                      [_vm._v("Hosting Indonesia")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href:
-                            "https://www.niagahoster.co.id/hosting-singapore"
-                        }
-                      },
-                      [_vm._v("Hosting Singapore SG")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href:
-                            "https://www.niagahoster.co.id/wordpress-hosting"
-                        }
-                      },
-                      [_vm._v("Hosting Wordpress")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting PHP")])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href:
-                            "https://www.niagahoster.co.id/wordpress-hosting"
-                        }
-                      },
-                      [_vm._v("Hosting Wordpress")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Hosting Laravel")
-                    ])
-                  ])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" },
-              [
-                _c("h5", [_vm._v("Tutorial")]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [_vm._v("Knowledbase")])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [_vm._v("Blog")])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Cara Pembayaran")
-                    ])
-                  ])
-                ])
-              ]
+              "a",
+              { attrs: { href: "https://www.niagahoster.co.id/domain-murah" } },
+              [_vm._v("Domain")]
             )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "row mt-5" }, [
+          _c("li", [
             _c(
-              "div",
-              { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" },
-              [
-                _c("h5", [_vm._v("tentang kami")]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Tim Niagahoster")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [_vm._v("Karir")])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [_vm._v("Events")])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Penawaran & Promo Spesial")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [_vm._v("Kontak Kami")])
-                  ])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" },
-              [
-                _c("h5", [_vm._v("Kenapa Pilih Niagahoster?")]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Support Terbaik")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Garansi Harga Termurah")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Domain Gratis Selamanya")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Datacenter Hosting Terbaik")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Review Pelanggan")
-                    ])
-                  ])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" },
-              [
-                _c("h5", [_vm._v("newsletter")]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", { staticClass: "form-newsletter" }, [
-                    _c("input", {
-                      staticClass: "form-control rounded-pill col-md-12",
-                      attrs: { type: "text", placeholder: "Email" }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "button",
-                      { staticClass: "btn btn-primary rounded-pill" },
-                      [_vm._v("Berlangganan")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "text-muted mt-1" }, [
-                    _vm._v(
-                      "\n            Dapatkan promo dan konten menarik dari\n            penyedia hosting terbaik anda\n          "
-                    )
-                  ])
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "col-12 col-sm-6 col-lg-3 footer-social-media" },
-              [
-                _c("ul", [
-                  _c("li", [
-                    _c("button", { staticClass: "btn btn-lg rounded-circle" }, [
-                      _c("i", {
-                        staticClass: "fa fa-facebook",
-                        attrs: { "aria-hidden": "true" }
-                      })
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("button", { staticClass: "btn btn-lg rounded-circle" }, [
-                      _c("i", {
-                        staticClass: "fa fa-twitter",
-                        attrs: { "aria-hidden": "true" }
-                      })
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("button", { staticClass: "btn btn-lg rounded-circle" }, [
-                      _c("i", {
-                        staticClass: "fa fa-google-plus",
-                        attrs: { "aria-hidden": "true" }
-                      })
-                    ])
-                  ])
-                ])
-              ]
+              "a",
+              {
+                attrs: {
+                  href: "https://www.niagahoster.co.id/hosting-indonesia"
+                }
+              },
+              [_vm._v("Shared Hosting")]
             )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "row mt-5" }, [
-            _c("div", { staticClass: "col-12 payment" }, [
-              _c("h5", [_vm._v("pembayaran")]),
-              _vm._v(" "),
-              _c("ul", { staticClass: "d-flex" }, [
-                _c("li", [
-                  _c("button", { staticClass: "btn" }, [
-                    _c("i", {
-                      staticClass: "fa fa-facebook",
-                      attrs: { "aria-hidden": "true" }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("button", { staticClass: "btn" }, [
-                    _c("i", {
-                      staticClass: "fa fa-twitter",
-                      attrs: { "aria-hidden": "true" }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("button", { staticClass: "btn" }, [
-                    _c("i", {
-                      staticClass: "fa fa-google-plus",
-                      attrs: { "aria-hidden": "true" }
-                    })
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "text-muted mt-3" }, [
-                _vm._v(
-                  "Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif!"
-                )
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.niagahoster.co.id/cloud-vps-hosting"
+                }
+              },
+              [_vm._v("Cloud VPS Hosting")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.niagahoster.co.id/cloud-vps-hosting"
+                }
+              },
+              [_vm._v("Managed VPS Hosting")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.niagahoster.co.id/membuat-blog-weebly"
+                }
+              },
+              [_vm._v("Web Builder")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              { attrs: { href: "https://www.niagahoster.co.id/ssl-murah" } },
+              [_vm._v("Keamanan SSL/HTTPS")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "https://www.niagaweb.co.id/" } }, [
+              _vm._v("Jasa Pembuatan Website")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              { attrs: { href: "https://www.niagahoster.co.id/afiliasi" } },
+              [_vm._v("Program Afiliasi")]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" }, [
+        _c("h5", [_vm._v("Service Hosting")]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: { href: "https://www.niagahoster.co.id/hosting-murah" }
+              },
+              [_vm._v("Hosting Murah")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.niagahoster.co.id/hosting-indonesia"
+                }
+              },
+              [_vm._v("Hosting Indonesia")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.niagahoster.co.id/hosting-singapore"
+                }
+              },
+              [_vm._v("Hosting Singapore SG")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.niagahoster.co.id/wordpress-hosting"
+                }
+              },
+              [_vm._v("Hosting Wordpress")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting PHP")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href: "https://www.niagahoster.co.id/wordpress-hosting"
+                }
+              },
+              [_vm._v("Hosting Wordpress")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Hosting Laravel")])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" }, [
+        _c("h5", [_vm._v("Tutorial")]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Knowledbase")])
+          ]),
+          _vm._v(" "),
+          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Blog")])]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Cara Pembayaran")])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row mt-5" }, [
+      _c("div", { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" }, [
+        _c("h5", [_vm._v("tentang kami")]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Tim Niagahoster")])
+          ]),
+          _vm._v(" "),
+          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Karir")])]),
+          _vm._v(" "),
+          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Events")])]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [
+              _vm._v("Penawaran & Promo Spesial")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("Kontak Kami")])])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" }, [
+        _c("h5", [_vm._v("Kenapa Pilih Niagahoster?")]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Support Terbaik")])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [
+              _vm._v("Garansi Harga Termurah")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [
+              _vm._v("Domain Gratis Selamanya")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [
+              _vm._v("Datacenter Hosting Terbaik")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [_vm._v("Review Pelanggan")])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-12 col-sm-6 col-lg-3 footer-content" }, [
+        _c("h5", [_vm._v("newsletter")]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", { staticClass: "form-newsletter" }, [
+            _c("input", {
+              staticClass: "form-control rounded-pill col-md-12",
+              attrs: { type: "text", placeholder: "Email" }
+            }),
+            _vm._v(" "),
+            _c("button", { staticClass: "btn btn-primary rounded-pill" }, [
+              _vm._v(
+                "\n                            Berlangganan\n                        "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "text-muted mt-1" }, [
+            _vm._v(
+              "\n                        Dapatkan promo dan konten menarik dari penyedia\n                        hosting terbaik anda\n                    "
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-12 col-sm-6 col-lg-3 footer-social-media" },
+        [
+          _c("ul", [
+            _c("li", [
+              _c("button", { staticClass: "btn btn-lg rounded-circle" }, [
+                _c("i", {
+                  staticClass: "fa fa-facebook",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("button", { staticClass: "btn btn-lg rounded-circle" }, [
+                _c("i", {
+                  staticClass: "fa fa-twitter",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("button", { staticClass: "btn btn-lg rounded-circle" }, [
+                _c("i", {
+                  staticClass: "fa fa-google-plus",
+                  attrs: { "aria-hidden": "true" }
+                })
               ])
             ])
           ])
-        ])
-      ]
-    )
+        ]
+      )
+    ])
   }
 ]
 render._withStripped = true
@@ -51386,18 +51689,25 @@ module.exports = function(module) {
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_clazy_load__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-clazy-load */ "./node_modules/vue-clazy-load/dist/vue-clazy-load.js");
+/* harmony import */ var vue_clazy_load__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_clazy_load__WEBPACK_IMPORTED_MODULE_0__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
+
+
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 Vue.component('layout-component', __webpack_require__(/*! ./components/LayoutComponent.vue */ "./resources/js/components/LayoutComponent.vue")["default"]);
+Vue.use(vue_clazy_load__WEBPACK_IMPORTED_MODULE_0___default.a);
 var app = new Vue({
   el: '#app'
 });
