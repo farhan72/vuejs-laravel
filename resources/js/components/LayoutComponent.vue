@@ -1,10 +1,24 @@
 <template>
-    <div class="bg-white">
+    <div class="bg-white main">
         <Header />
+        <Footer />
     </div>
 </template>
 
 <script>
 import Header from "./pages/Header";
-export default { components: { Header } };
+import Footer from "./pages/Footer";
+export default { components: { Header, Footer } };
 </script>
+
+<style lang="scss">
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    .footer {
+        margin-top: auto;
+    }
+}
+</style>
