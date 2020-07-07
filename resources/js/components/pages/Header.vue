@@ -3,13 +3,15 @@
         class="navbar navbar-expand-lg navbar-light bg-light border-bottom top-nav"
     >
         <div class="container">
-            <div class="navbar-brand top-brand">
-                <span class="post-tag">
-                    <i class="fa fa-tag" aria-hidden="true"></i>
-                </span>
-                <small
-                    >Gratis Ebook 9 Cara Cerdas Menggunakan Domain[ x ]</small
-                >
+            <div class="navbar-brand top-brand p-md-0">
+                <div class="row">
+                    <div class="col-md-1 post-tag">
+                        <i class="fa fa-tag" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-3 mt-1 caption">
+                        Gratis Ebook 9 Cara Cerdas Menggunakan Domain[x]
+                    </div>
+                </div>
             </div>
             <button
                 class="navbar-toggler"
@@ -70,19 +72,35 @@ export default {
     }
 }
 
-.post-tag {
-    clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);
-    background: #406df3;
-    color: #ffffff;
-    padding: 2px 7px 7px;
+.top-brand {
+    .row {
+        justify-content: center;
+        align-items: center;
+        .post-tag {
+            width: 10%;
+            clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);
+            background: #406df3;
+            color: #ffffff;
+            text-align: center;
+            padding: 2px 7px 10px;
+        }
+        .caption {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
 }
 
 @media (min-width: 992px) {
     .top-brand {
         position: absolute;
         top: 0;
-        color: #676767;
-        padding: 0;
+        .row {
+            justify-content: end;
+        }
+        .caption {
+            font-size: 1em !important;
+        }
     }
 }
 </style>

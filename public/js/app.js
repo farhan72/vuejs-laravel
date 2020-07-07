@@ -1984,6 +1984,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Header"
 });
@@ -6432,7 +6434,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".subnav .nav-item .nav-link[data-v-0a63ff23] {\n  font-family: \"Roboto-Light\", sans-serif;\n  color: #676767;\n}\n.subnav .nav-item .nav-link .fa-user[data-v-0a63ff23] {\n  background: #4d4d4d;\n  padding: 0.3em 0.4em;\n  color: #ffffff;\n}\n.post-tag[data-v-0a63ff23] {\n  -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n          clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n  background: #406df3;\n  color: #ffffff;\n  padding: 2px 7px 7px;\n}\n@media (min-width: 992px) {\n.top-brand[data-v-0a63ff23] {\n    position: absolute;\n    top: 0;\n    color: #676767;\n    padding: 0;\n}\n}", ""]);
+exports.push([module.i, ".subnav .nav-item .nav-link[data-v-0a63ff23] {\n  font-family: \"Roboto-Light\", sans-serif;\n  color: #676767;\n}\n.subnav .nav-item .nav-link .fa-user[data-v-0a63ff23] {\n  background: #4d4d4d;\n  padding: 0.3em 0.4em;\n  color: #ffffff;\n}\n.top-brand .row[data-v-0a63ff23] {\n  justify-content: center;\n  align-items: center;\n}\n.top-brand .row .post-tag[data-v-0a63ff23] {\n  width: 10%;\n  -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n          clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n  background: #406df3;\n  color: #ffffff;\n  text-align: center;\n  padding: 2px 7px 10px;\n}\n.top-brand .row .caption[data-v-0a63ff23] {\n  font-size: 12px;\n  text-align: center;\n}\n@media (min-width: 992px) {\n.top-brand[data-v-0a63ff23] {\n    position: absolute;\n    top: 0;\n}\n.top-brand .row[data-v-0a63ff23] {\n    justify-content: end;\n}\n.top-brand .caption[data-v-0a63ff23] {\n    font-size: 1em !important;\n}\n}", ""]);
 
 // exports
 
@@ -38217,16 +38219,20 @@ var staticRenderFns = [
       },
       [
         _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "navbar-brand top-brand" }, [
-            _c("span", { staticClass: "post-tag" }, [
-              _c("i", {
-                staticClass: "fa fa-tag",
-                attrs: { "aria-hidden": "true" }
-              })
-            ]),
-            _vm._v(" "),
-            _c("small", [
-              _vm._v("Gratis Ebook 9 Cara Cerdas Menggunakan Domain[ x ]")
+          _c("div", { staticClass: "navbar-brand top-brand p-md-0" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-1 post-tag" }, [
+                _c("i", {
+                  staticClass: "fa fa-tag",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-3 mt-1 caption" }, [
+                _vm._v(
+                  "\n                    Gratis Ebook 9 Cara Cerdas Menggunakan Domain[x]\n                "
+                )
+              ])
             ])
           ]),
           _vm._v(" "),
