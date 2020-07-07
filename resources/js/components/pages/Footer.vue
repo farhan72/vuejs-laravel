@@ -169,7 +169,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3 footer-content">
                     <h5>newsletter</h5>
-                    <ul>
+                    <ul class="mt-md-3">
                         <li class="form-newsletter">
                             <input
                                 type="text"
@@ -239,7 +239,7 @@
             </div>
             <!-- end payment -->
             <hr size="2" width="100%" class="mt-3 bg-dark" />
-            <div class="row mt-2 text-white">
+            <div class="row mt-2 text-white copyright">
                 <div class="col-12 col-md-7">
                     <p class="text-center text-md-left">
                         Copyright ©2020 Niagahoster | Hosting powered by PHP7,
@@ -378,6 +378,7 @@ ul {
 .footer {
     padding-left: 0;
     padding-right: 0;
+    font-family: "NunitoSansBold", sans-serif;
 }
 
 .footer-content {
@@ -407,6 +408,9 @@ ul {
     .btn img {
         max-width: 50px !important;
         max-height: 20px !important;
+    }
+    .copyright {
+        font-size: 12px;
     }
 }
 </style>

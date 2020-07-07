@@ -1,6 +1,7 @@
 <template>
     <div class="bg-white main">
         <Header />
+        <LandingPage />
         <Footer />
     </div>
 </template>
@@ -8,7 +9,8 @@
 <script>
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
-export default { components: { Header, Footer } };
+import LandingPage from "./LandingPage";
+export default { components: { Header, Footer, LandingPage } };
 </script>
 
 <style lang="scss">

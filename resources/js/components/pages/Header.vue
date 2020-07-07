@@ -7,8 +7,10 @@
                         <div class="col-md-1 post-tag">
                             <i class="fa fa-tag" aria-hidden="true"></i>
                         </div>
-                        <div class="col-md-3 mt-1 caption">
-                            Gratis Ebook 9 Cara Cerdas Menggunakan Domain[x]
+                        <div class="col-md-3 mt-3 caption">
+                            <p class="text-sm-wrap text-sm-wrap">
+                                Gratis Ebook 9 Cara Cerdas Menggunakan Domain[x]
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +47,7 @@
             </div>
         </nav>
         <nav class="navbar navbar-expand-lg navbar-light border-bottom">
-            <div class="container pl-md-0">
+            <div class="container">
                 <a class="navbar-brand" href="#">
                     <img
                         src="/assets/svg/niagahoster-logo.svg"
@@ -121,7 +123,7 @@ export default {
             background: #406df3;
             color: #ffffff;
             text-align: center;
-            padding: 2px 7px 14px;
+            padding: 2px 7px 10px;
         }
         .caption {
             color: #676767;
