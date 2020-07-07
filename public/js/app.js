@@ -2181,6 +2181,33 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Footer",
   data: function data() {
@@ -2204,6 +2231,16 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -6747,7 +6784,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "h5[data-v-2d9cc99e] {\n  color: #c4c4c4;\n  font-size: 20px;\n  font-weight: 700;\n  line-height: 24px;\n  text-transform: uppercase;\n  font-family: \"NunitoSansBold\", sans-serif;\n}\nul[data-v-2d9cc99e] {\n  margin-top: 30px;\n  list-style: none;\n  padding: 0;\n}\nul li[data-v-2d9cc99e],\nul a[data-v-2d9cc99e] {\n  color: #ffffff;\n  text-decoration: none;\n  font-family: \"NunitoSansRegular\", sans-serif;\n  line-height: 23px;\n}\nul li[data-v-2d9cc99e]:hover,\nul a[data-v-2d9cc99e]:hover {\n  color: #c4c4c4;\n  transition: 0.5s;\n  cursor: pointer;\n}\nul .form-newsletter[data-v-2d9cc99e] {\n  position: relative;\n}\nul .form-newsletter .btn[data-v-2d9cc99e] {\n  position: absolute;\n  bottom: 50%;\n  transform: translateY(50%);\n  right: 0.5rem;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e] {\n  padding-bottom: 1.5rem;\n  padding-top: 1.5rem;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::-moz-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]:-ms-input-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::-ms-input-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\n.footer-social-media ul[data-v-2d9cc99e] {\n  display: flex;\n  transform: translateY(50%);\n}\n.footer-social-media ul li[data-v-2d9cc99e] {\n  margin-right: 26px;\n}\n.footer-social-media ul li .btn[data-v-2d9cc99e] {\n  border: 2px solid #ffffff;\n  color: #ffffff;\n}\n.footer-social-media ul li .btn[data-v-2d9cc99e]:hover {\n  border-color: #949494;\n  background-color: #949494;\n  transition: 0.5s;\n}\n.payment ul[data-v-2d9cc99e] {\n  margin-top: 20px !important;\n}\n.payment ul li[data-v-2d9cc99e] {\n  margin-right: 10px !important;\n}\n.payment ul li .btn[data-v-2d9cc99e] {\n  border: 2px solid #ffffff;\n  color: #ffffff;\n}\n.payment ul li .btn[data-v-2d9cc99e]:hover {\n  border-color: #949494;\n  background-color: #949494;\n  transition: 0.5s;\n}\n.footer[data-v-2d9cc99e] {\n  padding-left: 0;\n  padding-right: 0;\n}\n.footer-content[data-v-2d9cc99e] {\n  text-align: center;\n}\n.btn img[data-v-2d9cc99e] {\n  width: 50px;\n  height: 20px;\n  -webkit-filter: grayscale(100%);\n          filter: grayscale(100%);\n}\n@media (min-width: 992px) {\n.footer-content[data-v-2d9cc99e] {\n    text-align: left;\n}\n}", ""]);
+exports.push([module.i, "h5[data-v-2d9cc99e] {\n  color: #c4c4c4;\n  font-size: 20px;\n  font-weight: 700;\n  line-height: 24px;\n  text-transform: uppercase;\n  font-family: \"NunitoSansBold\", sans-serif;\n}\nul[data-v-2d9cc99e] {\n  margin-top: 30px;\n  list-style: none;\n  padding: 0;\n}\nul li[data-v-2d9cc99e],\nul a[data-v-2d9cc99e] {\n  color: #ffffff;\n  text-decoration: none;\n  font-family: \"NunitoSansRegular\", sans-serif;\n  line-height: 23px;\n}\nul li[data-v-2d9cc99e]:hover,\nul a[data-v-2d9cc99e]:hover {\n  color: #c4c4c4;\n  transition: 0.5s;\n  cursor: pointer;\n}\nul .form-newsletter[data-v-2d9cc99e] {\n  position: relative;\n}\nul .form-newsletter .btn[data-v-2d9cc99e] {\n  position: absolute;\n  bottom: 50%;\n  transform: translateY(50%);\n  right: 0.5rem;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e] {\n  padding-bottom: 1.5rem;\n  padding-top: 1.5rem;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::-moz-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]:-ms-input-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::-ms-input-placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\nul .form-newsletter .form-control[data-v-2d9cc99e]::placeholder {\n  position: absolute;\n  padding: 0 10px;\n  color: #a7aaab;\n  font-weight: 500;\n}\n.footer-social-media ul[data-v-2d9cc99e] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.footer-social-media ul li[data-v-2d9cc99e] {\n  margin-right: 20px;\n}\n.footer-social-media ul li .btn[data-v-2d9cc99e] {\n  border: 2px solid #ffffff;\n  color: #ffffff;\n}\n.footer-social-media ul li .btn[data-v-2d9cc99e]:hover {\n  border-color: #949494;\n  background-color: #949494;\n  transition: 0.5s;\n}\n.payment[data-v-2d9cc99e] {\n  text-align: center;\n}\n.payment ul[data-v-2d9cc99e] {\n  margin-top: 20px !important;\n}\n.payment ul li[data-v-2d9cc99e] {\n  margin-top: 10px !important;\n}\n.payment ul li .btn[data-v-2d9cc99e] {\n  border: 2px solid #ffffff;\n  color: #ffffff;\n}\n.payment ul li .btn[data-v-2d9cc99e]:hover {\n  border-color: #949494;\n  background-color: #949494;\n  transition: 0.5s;\n}\n.footer[data-v-2d9cc99e] {\n  padding-left: 0;\n  padding-right: 0;\n}\n.footer-content[data-v-2d9cc99e] {\n  text-align: center;\n}\n.btn img[data-v-2d9cc99e] {\n  max-width: 30%;\n  -webkit-filter: grayscale(100%);\n          filter: grayscale(100%);\n}\n@media (min-width: 992px) {\n.footer-content[data-v-2d9cc99e] {\n    text-align: left;\n}\n.footer-social-media ul[data-v-2d9cc99e] {\n    transform: translateY(50%);\n}\n.payment[data-v-2d9cc99e] {\n    text-align: left;\n}\n.payment ul li[data-v-2d9cc99e] {\n    margin-right: 10px !important;\n}\n.btn img[data-v-2d9cc99e] {\n    max-width: 50px !important;\n    max-height: 20px !important;\n}\n}", ""]);
 
 // exports
 
@@ -6766,7 +6803,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".subnav .nav-link[data-v-0a63ff23] {\n  font-family: \"Roboto-Light\", sans-serif;\n  color: #676767;\n}\n.subnav .nav-link .fa-user[data-v-0a63ff23] {\n  background: #4d4d4d;\n  padding: 0.3em 0.4em;\n  color: #ffffff;\n}\n.caption[data-v-0a63ff23] {\n  overflow-wrap: break-word;\n}\n.top-nav .container[data-v-0a63ff23] {\n  justify-content: center;\n}\n.top-brand .row[data-v-0a63ff23] {\n  justify-content: center;\n  align-items: center;\n}\n.top-brand .row .post-tag[data-v-0a63ff23] {\n  width: 10%;\n  -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n          clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n  background: #406df3;\n  color: #ffffff;\n  text-align: center;\n  padding: 2px 7px 14px;\n}\n.top-brand .row .caption[data-v-0a63ff23] {\n  color: #676767;\n  font-size: 12px;\n  text-align: center;\n}\n@media (min-width: 992px) {\n.top-nav .container[data-v-0a63ff23] {\n    justify-content: space-between;\n}\n.top-brand[data-v-0a63ff23] {\n    position: absolute;\n    top: 0;\n}\n.top-brand .row[data-v-0a63ff23] {\n    justify-content: end;\n}\n.top-brand .caption[data-v-0a63ff23] {\n    font-size: 14px !important;\n}\n}", ""]);
+exports.push([module.i, ".subnav .nav-link[data-v-0a63ff23] {\n  font-family: \"Roboto-Light\", sans-serif;\n  color: #676767;\n}\n.subnav .nav-link .fa-user[data-v-0a63ff23] {\n  background: #4d4d4d;\n  padding: 0.3em 0.4em;\n  color: #ffffff;\n}\n.caption[data-v-0a63ff23] {\n  overflow-wrap: break-word;\n}\n.top-nav .container[data-v-0a63ff23] {\n  justify-content: center;\n}\n.top-brand .row[data-v-0a63ff23] {\n  justify-content: center;\n  align-items: center;\n}\n.top-brand .row .post-tag[data-v-0a63ff23] {\n  width: 10%;\n  -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n          clip-path: polygon(100% 0, 100% 100%, 51% 73%, 0 100%, 0 0);\n  background: #406df3;\n  color: #ffffff;\n  text-align: center;\n  padding: 2px 7px 14px;\n}\n.top-brand .row .caption[data-v-0a63ff23] {\n  color: #676767;\n  font-size: 12px;\n  text-align: center;\n}\nimg[data-v-0a63ff23] {\n  width: 150px;\n}\n@media (min-width: 992px) {\nimg[data-v-0a63ff23] {\n    width: 40%;\n}\n.top-nav .container[data-v-0a63ff23] {\n    justify-content: space-between;\n}\n.top-brand[data-v-0a63ff23] {\n    position: absolute;\n    top: 0;\n}\n.top-brand .row[data-v-0a63ff23] {\n    justify-content: end;\n}\n.top-brand .caption[data-v-0a63ff23] {\n    font-size: 14px !important;\n}\n}", ""]);
 
 // exports
 
@@ -38926,7 +38963,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "ul",
-              { staticClass: "d-flex" },
+              { staticClass: "d-md-flex" },
               _vm._l(_vm.paymentLogo, function(payment, index) {
                 return _c("li", { key: index }, [
                   _c(
@@ -38963,7 +39000,14 @@ var render = function() {
               )
             ])
           ])
-        ])
+        ]),
+        _vm._v(" "),
+        _c("hr", {
+          staticClass: "mt-3 bg-dark",
+          attrs: { size: "2", width: "100%" }
+        }),
+        _vm._v(" "),
+        _vm._m(2)
       ])
     ]
   )
@@ -39293,6 +39337,50 @@ var staticRenderFns = [
         ]
       )
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row mt-2 text-white" }, [
+      _c("div", { staticClass: "col-12 col-md-7" }, [
+        _c("p", { staticClass: "text-center text-md-left" }, [
+          _vm._v(
+            "\n                    Copyright ©2020 Niagahoster | Hosting powered by PHP7,\n                    CloudLinux, CloudFlare, BitNinja and DC DCI-Indonesia.\n                    Cloud VPS Murah powered by Webuzo Softaculous, Intel SSD\n                    and cloud computing technology\n                "
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-12 col-md-5 mt-5 mt-md-0" }, [
+        _c("div", { staticClass: "text-center text-md-right text-white" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-white",
+              attrs: {
+                href: "https://www.niagahoster.co.id/syarat-dan-ketentuan"
+              }
+            },
+            [
+              _vm._v(
+                "\n                        Syarat dan Ketentuan\n                    "
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c("span", [_vm._v("|")]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-white",
+              attrs: { href: "https://www.niagahoster.co.id/kebijakan-privasi" }
+            },
+            [_vm._v("Kebijakan Privasi")]
+          )
+        ])
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -39342,7 +39430,9 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "col-md-3 mt-1 caption" }, [
-                  _vm._v("Gratis Ebook 9 Cara Cerdas Menggunakan Domain[x]")
+                  _vm._v(
+                    "\n                        Gratis Ebook 9 Cara Cerdas Menggunakan Domain[x]\n                    "
+                  )
                 ])
               ])
             ]),
@@ -39379,7 +39469,9 @@ var staticRenderFns = [
                         staticClass: "fa fa-phone",
                         attrs: { "aria-hidden": "true" }
                       }),
-                      _vm._v("\n             0274-5305505\n          ")
+                      _vm._v(
+                        "\n                         0274-5305505\n                    "
+                      )
                     ]
                   ),
                   _vm._v(" "),
@@ -39391,7 +39483,9 @@ var staticRenderFns = [
                         staticClass: "fa fa-comment",
                         attrs: { "aria-hidden": "true" }
                       }),
-                      _vm._v("\n             Live Chat\n          ")
+                      _vm._v(
+                        "\n                         Live Chat\n                    "
+                      )
                     ]
                   ),
                   _vm._v(" "),
@@ -39403,7 +39497,9 @@ var staticRenderFns = [
                         staticClass: "fa fa-user rounded-circle",
                         attrs: { "aria-hidden": "true" }
                       }),
-                      _vm._v("\n             Member Area\n          ")
+                      _vm._v(
+                        "\n                         Member Area\n                    "
+                      )
                     ]
                   )
                 ])
@@ -39420,8 +39516,12 @@ var staticRenderFns = [
           _c("div", { staticClass: "container pl-md-0" }, [
             _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }, [
               _c("img", {
-                staticClass: "w-50",
-                attrs: { src: "/assets/svg/niagahoster-logo.svg" }
+                staticClass: "d-inline-block align-top",
+                attrs: {
+                  src: "/assets/svg/niagahoster-logo.svg",
+                  alt: "",
+                  loading: "lazy"
+                }
               })
             ]),
             _vm._v(" "),

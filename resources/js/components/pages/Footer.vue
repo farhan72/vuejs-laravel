@@ -216,7 +216,7 @@
             <div class="row mt-5">
                 <div class="col-12 payment">
                     <h5>pembayaran</h5>
-                    <ul class="d-flex">
+                    <ul class="d-md-flex">
                         <li
                             v-for="(payment, index) in paymentLogo"
                             :key="index"
@@ -238,6 +238,33 @@
                 </div>
             </div>
             <!-- end payment -->
+            <hr size="2" width="100%" class="mt-3 bg-dark" />
+            <div class="row mt-2 text-white">
+                <div class="col-12 col-md-7">
+                    <p class="text-center text-md-left">
+                        Copyright ©2020 Niagahoster | Hosting powered by PHP7,
+                        CloudLinux, CloudFlare, BitNinja and DC DCI-Indonesia.
+                        Cloud VPS Murah powered by Webuzo Softaculous, Intel SSD
+                        and cloud computing technology
+                    </p>
+                </div>
+                <div class="col-12 col-md-5 mt-5 mt-md-0">
+                    <div class="text-center text-md-right text-white">
+                        <a
+                            href="https://www.niagahoster.co.id/syarat-dan-ketentuan"
+                            class="text-white"
+                        >
+                            Syarat dan Ketentuan
+                        </a>
+                        <span>|</span>
+                        <a
+                            href="https://www.niagahoster.co.id/kebijakan-privasi"
+                            class="text-white"
+                            >Kebijakan Privasi</a
+                        >
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -313,9 +340,10 @@ ul {
 
 .footer-social-media ul {
     display: flex;
-    transform: translateY(50%);
+    justify-content: center;
+    align-items: center;
     li {
-        margin-right: 26px;
+        margin-right: 20px;
         .btn {
             border: 2px solid #ffffff;
             color: #ffffff;
@@ -328,17 +356,20 @@ ul {
     }
 }
 
-.payment ul {
-    margin-top: 20px !important;
-    li {
-        margin-right: 10px !important;
-        .btn {
-            border: 2px solid #ffffff;
-            color: #ffffff;
-            &:hover {
-                border-color: #949494;
-                background-color: #949494;
-                transition: 0.5s;
+.payment {
+    text-align: center;
+    ul {
+        margin-top: 20px !important;
+        li {
+            margin-top: 10px !important;
+            .btn {
+                border: 2px solid #ffffff;
+                color: #ffffff;
+                &:hover {
+                    border-color: #949494;
+                    background-color: #949494;
+                    transition: 0.5s;
+                }
             }
         }
     }
@@ -354,14 +385,28 @@ ul {
 }
 
 .btn img {
-    width: 50px;
-    height: 20px;
+    max-width: 30%;
     filter: grayscale(100%);
 }
 
 @media (min-width: 992px) {
     .footer-content {
         text-align: left;
+    }
+    .footer-social-media ul {
+        transform: translateY(50%);
+    }
+    .payment {
+        text-align: left;
+        ul {
+            li {
+                margin-right: 10px !important;
+            }
+        }
+    }
+    .btn img {
+        max-width: 50px !important;
+        max-height: 20px !important;
     }
 }
 </style>
