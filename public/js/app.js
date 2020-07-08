@@ -1940,7 +1940,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/Header */ "./resources/js/components/pages/Header.vue");
 /* harmony import */ var _pages_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/Footer */ "./resources/js/components/pages/Footer.vue");
-/* harmony import */ var _LandingPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./LandingPage */ "./resources/js/components/LandingPage.vue");
+/* harmony import */ var _LandingPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LandingPage */ "./resources/js/components/LandingPage.vue");
 //
 //
 //
@@ -1956,7 +1956,7 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     Header: _pages_Header__WEBPACK_IMPORTED_MODULE_0__["default"],
     Footer: _pages_Footer__WEBPACK_IMPORTED_MODULE_1__["default"],
-    LandingPage: _LandingPage__WEBPACK_IMPORTED_MODULE_3__["default"]
+    LandingPage: _LandingPage__WEBPACK_IMPORTED_MODULE_2__["default"]
   }
 });
 
@@ -2428,12 +2428,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -40006,7 +40000,7 @@ var render = function() {
     "div",
     { staticClass: "jumbotron jumbotron-fluid bg-white border-bottom" },
     [
-      _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "container text-center" }, [
         _c("div", { staticClass: "row" }, [
           _c(
             "div",
@@ -40021,11 +40015,7 @@ var render = function() {
                   _c(
                     "div",
                     { attrs: { slot: "placeholder" }, slot: "placeholder" },
-                    [
-                      _vm._v(
-                        "\n                        Loading....\n                    "
-                      )
-                    ]
+                    [_vm._v("Loading....")]
                   )
                 ]
               )
@@ -40037,23 +40027,15 @@ var render = function() {
             "div",
             { staticClass: "col" },
             [
-              _c(
-                "clazy-load",
-                { attrs: { src: "/assets/images/composer.png" } },
-                [
-                  _c("img", { attrs: { src: "/assets/images/composer.png" } }),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { attrs: { slot: "placeholder" }, slot: "placeholder" },
-                    [
-                      _vm._v(
-                        "\n                        Loading....\n                    "
-                      )
-                    ]
-                  )
-                ]
-              )
+              _c("clazy-load", { attrs: { src: "/assets/svg/ioncube.svg" } }, [
+                _c("img", { attrs: { src: "/assets/svg/ioncube.svg" } }),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { attrs: { slot: "placeholder" }, slot: "placeholder" },
+                  [_vm._v("Loading....")]
+                )
+              ])
             ],
             1
           ),
@@ -40068,11 +40050,7 @@ var render = function() {
                 _c(
                   "div",
                   { attrs: { slot: "placeholder" }, slot: "placeholder" },
-                  [
-                    _vm._v(
-                      "\n                        Loading....\n                    "
-                    )
-                  ]
+                  [_vm._v("Loading....")]
                 )
               ])
             ],
