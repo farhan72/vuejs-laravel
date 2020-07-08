@@ -4,11 +4,7 @@
       <h3 class="text-dark">Semua Paket Hosting Sudah Termasuk</h3>
       <div class="content">
         <div class="row mt-4 text-center">
-          <div
-            class="col-lg-4 col-md-5 col-6 mt-4"
-            v-for="(package_, index) in packages"
-            :key="index"
-          >
+          <div class="col-lg-4 col-md-5 mt-4" v-for="(package_, index) in packages" :key="index">
             <div class="col">
               <clazy-load :src="package_.image">
                 <img :src="package_.image" class="img-fluid" />

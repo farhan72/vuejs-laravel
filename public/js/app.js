@@ -1998,10 +1998,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "PackageHosting",
   data: function data() {
@@ -39563,7 +39559,7 @@ var render = function() {
           _vm._l(_vm.packages, function(package_, index) {
             return _c(
               "div",
-              { key: index, staticClass: "col-lg-4 col-md-5 col-6 mt-4" },
+              { key: index, staticClass: "col-lg-4 col-md-5 mt-4" },
               [
                 _c(
                   "div",
