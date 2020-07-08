@@ -2,10 +2,10 @@
   <div class="jumbotron jumbotron-fluid bg-white border-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-md">
+        <div class="col-md-7">
           <div class="hero">
             <h1 class="hero-title text-dark">PHP HOSTING</h1>
-            <h2 class="hero-description mt-3">
+            <h2 class="hero-description mt-3 text-left">
               <p>
                 Cepat, handal, penuh, dengan modul PHP yang Anda
                 butuhkan
@@ -19,7 +19,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md-5">
           <clazy-load src="/assets/svg/banner_PHP.svg">
             <img src="/assets/svg/banner_PHP.svg" />
             <div slot="placeholder">Loading....</div>

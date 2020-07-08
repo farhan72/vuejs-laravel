@@ -7,7 +7,7 @@
           <ul class="text-white">
             <li>
               Telp:
-              <a href="tel:+62742885822">0274-2885822</a>
+              <a href="#">0274-5305505</a>
             </li>
             <li>Senin - Minggu</li>
             <li>24 Jam Nonstop</li>

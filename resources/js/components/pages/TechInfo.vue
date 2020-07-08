@@ -34,6 +34,9 @@
       <div>
         <PackageHosting />
       </div>
+      <div>
+        <SupportingFramework />
+      </div>
     </div>
   </div>
 </template>
@@ -42,10 +45,11 @@
 import PriceCard from "../elements/PriceCard";
 import Powerful from "../elements/Powerful";
 import PackageHosting from "../elements/PackageHosting";
+import SupportingFramework from "../elements/SupportingFramework";
 
 export default {
   name: "TechInfo",
-  components: { PriceCard, Powerful, PackageHosting }
+  components: { PriceCard, Powerful, PackageHosting, SupportingFramework }
 };
 </script>
 
