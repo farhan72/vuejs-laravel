@@ -1,9 +1,9 @@
 <template>
-    <div class="bg-white main">
-        <Header />
-        <LandingPage />
-        <Footer />
-    </div>
+  <div class="bg-white main">
+    <Header />
+    <LandingPage />
+    <Footer />
+  </div>
 </template>
 
 <script>
@@ -14,13 +14,16 @@ export default { components: { Header, Footer, LandingPage } };
 </script>
 
 <style lang="scss">
-.main {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 
-    .footer {
-        margin-top: auto;
-    }
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .footer {
+    margin-top: auto;
+  }
 }
 </style>

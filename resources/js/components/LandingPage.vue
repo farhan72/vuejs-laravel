@@ -1,21 +1,25 @@
 <template>
-    <div>
-        <Hero />
-        <SupportedLibrary />
-    </div>
+  <div>
+    <Hero />
+    <TechInfo />
+    <Powerful />
+  </div>
 </template>
 
 <script>
 import Hero from "./pages/Hero";
-import SupportedLibrary from "./pages/SupportedLibrary";
+import TechInfo from "./pages/TechInfo";
+import Powerful from "./pages/Powerful";
+
 export default {
-    name: "LandingPage",
-    components: { Hero, SupportedLibrary }
+  name: "LandingPage",
+  components: { Hero, TechInfo, Powerful }
 };
 </script>
 
 <style>
 .jumbotron {
-    margin-bottom: 0;
+  margin-bottom: 0;
+  font-family: "NunitoSansBold", sans-serif;
 }
 </style>
