@@ -1,8 +1,8 @@
 <template>
-  <div class="jumbotron jumbotron-fluid bg-white border-bottom">
+  <div class="jumbotron jumbotron-fluid bg-white">
     <div class="container text-center">
-      <div class="title">
-        <h3 class="text-dark">Powerful Dengan Limit PHP yang Lebih Besar</h3>
+      <h3 class="text-dark">Powerful dengan Limit PHP yang Lebih Besar</h3>
+      <div class="content">
         <div class="row mt-4">
           <div class="col-md">
             <ul class="list-group">
@@ -69,9 +69,9 @@ export default {
   align-items: center;
 }
 .item-secondary {
+  content: "";
   background-color: #f7f7f7;
 }
-
 .col-md {
   margin-top: 20px;
 }

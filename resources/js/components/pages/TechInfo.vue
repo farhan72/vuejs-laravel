@@ -1,5 +1,5 @@
 <template>
-  <div class="jumbotron jumbotron-fluid bg-white border-bottom">
+  <div class="jumbotron jumbotron-fluid bg-white">
     <div class="container text-center">
       <div class="row img-package">
         <div class="col-md">
@@ -28,19 +28,28 @@
         </div>
         <PriceCard />
       </div>
+      <div>
+        <Powerful />
+      </div>
+      <div>
+        <PackageHosting />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import PriceCard from "../elements/PriceCard";
+import Powerful from "../elements/Powerful";
+import PackageHosting from "../elements/PackageHosting";
+
 export default {
   name: "TechInfo",
-  components: { PriceCard }
+  components: { PriceCard, Powerful, PackageHosting }
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .title {
   margin-top: 4rem;
   color: #4c4c4c;
@@ -56,6 +65,13 @@ export default {
 
 .img-package .col-md {
   margin-top: 50px;
+}
+
+.content::after {
+  content: "";
+  padding: 10px 40px 10px 40px;
+  width: 10%;
+  border-bottom: 5px solid #f1f1f1;
 }
 
 @media (min-width: 992px) {

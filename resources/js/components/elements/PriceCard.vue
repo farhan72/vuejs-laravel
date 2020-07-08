@@ -1,6 +1,6 @@
 <template>
-  <div class="d-flex justify-content-center">
-    <div class="row mt-md-2">
+  <div class="d-flex justify-content-center mt-2">
+    <div class="row">
       <div class="col">
         <div class="card" style="width: 18rem;">
           <div class="label-price">
