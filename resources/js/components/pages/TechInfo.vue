@@ -40,6 +40,9 @@
       <div>
         <ModulAvailable />
       </div>
+      <div>
+        <LinuxHosting />
+      </div>
     </div>
   </div>
 </template>
@@ -50,6 +53,7 @@ import Powerful from "../elements/Powerful";
 import PackageHosting from "../elements/PackageHosting";
 import SupportingFramework from "../elements/SupportingFramework";
 import ModulAvailable from "../elements/ModulAvailable";
+import LinuxHosting from "../elements/LinuxHosting";
 
 export default {
   name: "TechInfo",
@@ -58,7 +62,8 @@ export default {
     Powerful,
     PackageHosting,
     SupportingFramework,
-    ModulAvailable
+    ModulAvailable,
+    LinuxHosting
   }
 };
 </script>

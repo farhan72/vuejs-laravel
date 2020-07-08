@@ -2,16 +2,18 @@
   <div>
     <Hero />
     <TechInfo />
+    <Socmed />
   </div>
 </template>
 
 <script>
 import Hero from "./pages/Hero";
 import TechInfo from "./pages/TechInfo";
+import Socmed from "./pages/Socmed";
 
 export default {
   name: "LandingPage",
-  components: { Hero, TechInfo }
+  components: { Hero, TechInfo, Socmed }
 };
 </script>
 

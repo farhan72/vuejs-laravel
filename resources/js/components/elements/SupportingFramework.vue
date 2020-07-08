@@ -13,8 +13,21 @@
               </p>
             </h2>
             <ul class="hero-keuntungan mt-3 text-left">
-              <li v-for="(name, index) in daftarKelebihan" :key="index" class="item-text">
-                <span v-html="name"></span>
+              <li class="item-text">
+                <span>
+                  Install Laravel
+                  <b>1 klik</b> dengan Softaculous Installer.
+                </span>
+              </li>
+              <li class="item-text">
+                <span>
+                  IMendukung ekstensi
+                  <b>PHP MCrypt, phar, mbstring, json,</b> dan
+                  <b>fileinfo.</b>
+                </span>
+              </li>
+              <li class="item-text">
+                <span>Tersedia Composer dan SSH untuk menginstall packages pilihan Anda.</span>
               </li>
             </ul>
             <div class="mt-2 text-left">
@@ -42,18 +55,14 @@
 
 <script>
 export default {
-  name: "SupportingFramework",
-  data: () => ({
-    daftarKelebihan: [
-      "Install Laravel <b>1 klik</b> dengan Softaculous Installer.",
-      "Mendukung ekstensi <b>PHP MCrypt, phar, mbstring, json,</b> dan <b>fileinfo.</b>",
-      "Tersedia Composer dan SSH untuk menginstall packages pilihan Anda."
-    ]
-  })
+  name: "SupportingFramework"
 };
 </script>
 
 <style lang="scss" scoped>
+b {
+  font-weight: bold;
+}
 .hero {
   font-family: "Montserrat", sans-serif;
   .hero-keuntungan {
