@@ -37,6 +37,9 @@
       <div>
         <SupportingFramework />
       </div>
+      <div>
+        <ModulAvailable />
+      </div>
     </div>
   </div>
 </template>
@@ -46,10 +49,17 @@ import PriceCard from "../elements/PriceCard";
 import Powerful from "../elements/Powerful";
 import PackageHosting from "../elements/PackageHosting";
 import SupportingFramework from "../elements/SupportingFramework";
+import ModulAvailable from "../elements/ModulAvailable";
 
 export default {
   name: "TechInfo",
-  components: { PriceCard, Powerful, PackageHosting, SupportingFramework }
+  components: {
+    PriceCard,
+    Powerful,
+    PackageHosting,
+    SupportingFramework,
+    ModulAvailable
+  }
 };
 </script>
 
