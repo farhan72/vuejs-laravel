@@ -7172,7 +7172,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\n.hero[data-v-336c449e] {\n  font-family: \"Montserrat\", sans-serif;\n}\n.hero .hero-keuntungan[data-v-336c449e] {\n  padding-left: 0;\n  list-style: none;\n  padding-left: 1.5em;\n  margin-left: 0;\n}\n.hero .hero-keuntungan li[data-v-336c449e] {\n  line-height: 33px;\n}\n.hero .hero-keuntungan .item-text[data-v-336c449e] {\n  overflow-wrap: break-word;\n}\n.hero .hero-keuntungan .item-text[data-v-336c449e]::before {\n  content: \"\\F058\";\n  font-family: FontAwesome;\n  color: #38c172;\n  position: absolute;\n  left: 0;\n  text-decoration: inherit;\n  margin-left: 10px;\n  font-size: 20px !important;\n}\n.hero .hero-description[data-v-336c449e],\n.hero .hero-keuntungan[data-v-336c449e] {\n  font-weight: 300;\n}\n@media (min-width: 992px) {\n.hero-description[data-v-336c449e] {\n    font-size: 20px;\n    line-height: 24px;\n}\n}", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.hero[data-v-336c449e] {\n  font-family: \"Montserrat\", sans-serif;\n}\n.hero .hero-keuntungan[data-v-336c449e] {\n  padding-left: 0;\n  list-style: none;\n  padding-left: 1.5em;\n  margin-left: 0;\n}\n.hero .hero-keuntungan li[data-v-336c449e] {\n  line-height: 20px;\n  font-size: 12px;\n}\n.hero .hero-keuntungan .item-text[data-v-336c449e]::before {\n  content: \"\\F058\";\n  font-family: FontAwesome;\n  color: #38c172;\n  position: absolute;\n  left: 0;\n  text-decoration: inherit;\n  margin-left: 15px;\n  font-size: 1.2em !important;\n}\n.hero .button[data-v-336c449e] {\n  text-align: center;\n}\n.hero .button .btn[data-v-336c449e] {\n  width: 100%;\n}\n.hero .hero-description[data-v-336c449e],\n.hero .hero-keuntungan[data-v-336c449e] {\n  font-weight: 300;\n}\n.hero .hero-description p[data-v-336c449e],\n.hero .hero-keuntungan p[data-v-336c449e] {\n  font-size: 14px;\n}\n@media (min-width: 992px) {\n.hero-description[data-v-336c449e] {\n    font-size: 20px !important;\n    line-height: 24px;\n}\n.button[data-v-336c449e] {\n    text-align: left !important;\n}\n.button .btn[data-v-336c449e] {\n    width: 50% !important;\n}\nli[data-v-336c449e] {\n    line-height: 33px !important;\n    font-size: 14px !important;\n}\n}", ""]);
 
 // exports
 
@@ -7229,7 +7229,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\n.hero-title[data-v-b97d14e0] {\n  font-weight: 700;\n}\n.hero-keuntungan[data-v-b97d14e0] {\n  padding-left: 0;\n  list-style: none;\n  padding-left: 1.5em;\n  margin-left: 0;\n}\n.hero-keuntungan li[data-v-b97d14e0] {\n  line-height: 33px;\n}\n.hero-keuntungan .item-text[data-v-b97d14e0] {\n  overflow-wrap: break-word;\n}\n.hero-keuntungan .item-text[data-v-b97d14e0]::before {\n  content: \"\\F058\";\n  font-family: FontAwesome;\n  color: #38c172;\n  position: absolute;\n  left: 0;\n  text-decoration: inherit;\n  margin-right: 10px;\n  font-size: 20px !important;\n}\n.hero-description[data-v-b97d14e0],\n.hero-keuntungan[data-v-b97d14e0] {\n  font-weight: 300;\n}\n.hero[data-v-b97d14e0] {\n  text-align: center;\n}\n@media (min-width: 992px) {\n.hero[data-v-b97d14e0] {\n    font-family: \"Montserrat\", sans-serif;\n    color: #4c4c4c;\n    position: absolute;\n    bottom: 0;\n    margin: 0;\n    padding: 0;\n}\n.hero-keuntungan li[data-v-b97d14e0] {\n    margin-bottom: 10px;\n}\n.hero-keuntungan li .fa[data-v-b97d14e0] {\n    font-size: 18px;\n}\n.col-md[data-v-b97d14e0] {\n    margin-top: 20px;\n}\n}", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.hero-title[data-v-b97d14e0] {\n  font-weight: 700;\n}\n.hero-keuntungan[data-v-b97d14e0] {\n  list-style: none;\n  padding-left: 1.5em;\n  margin-left: 0;\n}\n.hero-keuntungan li[data-v-b97d14e0] {\n  line-height: 33px;\n}\n.hero-keuntungan .item-text[data-v-b97d14e0] {\n  overflow-wrap: break-word;\n}\n.hero-keuntungan .item-text[data-v-b97d14e0]::before {\n  content: \"\\F058\";\n  font-family: FontAwesome;\n  color: #38c172;\n  position: absolute;\n  left: 1rem;\n  text-decoration: inherit;\n  margin-right: 15px;\n  font-size: 1.2em !important;\n}\n.hero-description[data-v-b97d14e0],\n.hero-keuntungan[data-v-b97d14e0] {\n  font-weight: 300;\n}\n.hero-description p[data-v-b97d14e0],\n.hero-keuntungan p[data-v-b97d14e0] {\n  font-size: 18px;\n}\n.hero[data-v-b97d14e0] {\n  text-align: center;\n}\n@media (min-width: 992px) {\n.hero[data-v-b97d14e0] {\n    font-family: \"Montserrat\", sans-serif;\n    color: #4c4c4c;\n    position: absolute;\n    bottom: 0;\n    margin: 0;\n    padding: 0;\n}\n.hero-keuntungan li[data-v-b97d14e0] {\n    margin-bottom: 10px;\n}\n.hero-keuntungan li .fa[data-v-b97d14e0] {\n    font-size: 18px;\n}\n.hero-keuntungan .item-text[data-v-b97d14e0]::before {\n    left: 0;\n    margin-right: 15px;\n}\n.hero-keuntungan p[data-v-b97d14e0] {\n    font-size: 1em;\n}\n.col-md[data-v-b97d14e0] {\n    margin-top: 20px;\n}\n}", ""]);
 
 // exports
 
@@ -39946,32 +39946,30 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row mt-md-4 mt-3 align-items-center" }, [
-        _c("div", { staticClass: "col-md col-6" }, [
+        _c("div", { staticClass: "col-md" }, [
           _c("div", { staticClass: "hero" }, [
             _vm._m(0),
             _vm._v(" "),
             _c(
               "ul",
               { staticClass: "hero-keuntungan mt-3 text-left" },
-              [
-                _vm._l(_vm.daftarKelebihan, function(name, index) {
-                  return _c("li", { key: index, staticClass: "item-text" }, [
-                    _c("span", { domProps: { innerHTML: _vm._s(name) } })
-                  ])
-                }),
-                _vm._v(" "),
-                _vm._m(1),
-                _vm._v(" "),
-                _vm._m(2)
-              ],
-              2
-            )
+              _vm._l(_vm.daftarKelebihan, function(name, index) {
+                return _c("li", { key: index, staticClass: "item-text" }, [
+                  _c("span", { domProps: { innerHTML: _vm._s(name) } })
+                ])
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _vm._m(1),
+            _vm._v(" "),
+            _vm._m(2)
           ])
         ]),
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "col-md col-6 align-bottom" },
+          { staticClass: "col-md align-bottom mt-md-0 mt-3" },
           [
             _c(
               "clazy-load",
@@ -40013,7 +40011,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "mt-2" }, [
+    return _c("div", { staticClass: "mt-2 text-left" }, [
       _c("small", { staticClass: "text-muted" }, [
         _vm._v(
           "Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis"
@@ -40025,7 +40023,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "mt-2" }, [
+    return _c("div", { staticClass: "mt-md-3 mt-2 button" }, [
       _c(
         "button",
         { staticClass: "btn btn-primary font-weight-bold rounded-pill btn-lg" },

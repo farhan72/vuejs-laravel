@@ -48,7 +48,6 @@ export default {
   font-weight: 700;
 }
 .hero-keuntungan {
-  padding-left: 0;
   list-style: none;
   padding-left: 1.5em;
   margin-left: 0;
@@ -64,16 +63,20 @@ export default {
       font-family: FontAwesome;
       color: #38c172;
       position: absolute;
-      left: 0;
+      left: 1rem;
       text-decoration: inherit;
-      margin-right: 10px;
-      font-size: 20px !important;
+      margin-right: 15px;
+      font-size: 1.2em !important;
     }
   }
 }
 .hero-description,
 .hero-keuntungan {
   font-weight: 300;
+
+  p {
+    font-size: 18px;
+  }
 }
 .hero {
   text-align: center;
@@ -93,6 +96,17 @@ export default {
       .fa {
         font-size: 18px;
       }
+    }
+
+    .item-text {
+      &::before {
+        left: 0;
+        margin-right: 15px;
+      }
+    }
+
+    p {
+      font-size: 1em;
     }
   }
   .col-md {

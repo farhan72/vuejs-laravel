@@ -3,7 +3,7 @@
     <div class="container text-center">
       <h3 class="text-dark">Mendukung Penuh Framework Laravel</h3>
       <div class="row mt-md-4 mt-3 align-items-center">
-        <div class="col-md col-6">
+        <div class="col-md">
           <div class="hero">
             <h2 class="hero-description mt-3 text-left">
               <p>
@@ -16,20 +16,20 @@
               <li v-for="(name, index) in daftarKelebihan" :key="index" class="item-text">
                 <span v-html="name"></span>
               </li>
-              <li class="mt-2">
-                <small
-                  class="text-muted"
-                >Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</small>
-              </li>
-              <li class="mt-2">
-                <button
-                  class="btn btn-primary font-weight-bold rounded-pill btn-lg"
-                >Pilih Hosting Anda</button>
-              </li>
             </ul>
+            <div class="mt-2 text-left">
+              <small
+                class="text-muted"
+              >Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</small>
+            </div>
+            <div class="mt-md-3 mt-2 button">
+              <button
+                class="btn btn-primary font-weight-bold rounded-pill btn-lg"
+              >Pilih Hosting Anda</button>
+            </div>
           </div>
         </div>
-        <div class="col-md col-6 align-bottom">
+        <div class="col-md align-bottom mt-md-0 mt-3">
           <clazy-load src="/assets/svg/support_laravel.svg">
             <img src="/assets/svg/support_laravel.svg" class="img-fluid" />
             <div slot="placeholder">Loading....</div>
@@ -63,11 +63,11 @@ export default {
     margin-left: 0;
 
     li {
-      line-height: 33px;
+      line-height: 20px;
+      font-size: 12px;
     }
 
     .item-text {
-      overflow-wrap: break-word;
       &::before {
         content: "\f058";
         font-family: FontAwesome;
@@ -75,22 +75,45 @@ export default {
         position: absolute;
         left: 0;
         text-decoration: inherit;
-        margin-left: 10px;
-        font-size: 20px !important;
+        margin-left: 15px;
+        font-size: 1.2em !important;
       }
+    }
+  }
+
+  .button {
+    text-align: center;
+    .btn {
+      width: 100%;
     }
   }
 
   .hero-description,
   .hero-keuntungan {
     font-weight: 300;
+
+    p {
+      font-size: 14px;
+    }
   }
 }
 
 @media (min-width: 992px) {
   .hero-description {
-    font-size: 20px;
+    font-size: 20px !important;
     line-height: 24px;
+  }
+
+  .button {
+    text-align: left !important;
+    .btn {
+      width: 50% !important;
+    }
+  }
+
+  li {
+    line-height: 33px !important;
+    font-size: 14px !important;
   }
 }
 </style>
