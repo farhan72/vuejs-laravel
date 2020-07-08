@@ -13,9 +13,8 @@
               </p>
             </h2>
             <ul class="hero-keuntungan mt-3 text-left">
-              <li v-for="(name, index) in daftarKelebihan" :key="index">
-                <i class="fa fa-check-circle text-success" aria-hidden="true" />
-                <span class="ml-1" v-html="name"></span>
+              <li v-for="(name, index) in daftarKelebihan" :key="index" class="item-text">
+                <span v-html="name"></span>
               </li>
               <li class="mt-2">
                 <small
@@ -58,11 +57,27 @@ export default {
 .hero {
   font-family: "Montserrat", sans-serif;
   .hero-keuntungan {
-    list-style: none;
     padding-left: 0;
+    list-style: none;
+    padding-left: 1.5em;
+    margin-left: 0;
 
     li {
-      line-height: 35px;
+      line-height: 33px;
+    }
+
+    .item-text {
+      overflow-wrap: break-word;
+      &::before {
+        content: "\f058";
+        font-family: FontAwesome;
+        color: #38c172;
+        position: absolute;
+        left: 0;
+        text-decoration: inherit;
+        margin-left: 10px;
+        font-size: 20px !important;
+      }
     }
   }
 

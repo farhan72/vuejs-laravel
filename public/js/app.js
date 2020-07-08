@@ -2198,7 +2198,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "SupportingFramework",
   data: function data() {
@@ -2559,7 +2558,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -7174,7 +7172,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".hero[data-v-336c449e] {\n  font-family: \"Montserrat\", sans-serif;\n}\n.hero .hero-keuntungan[data-v-336c449e] {\n  list-style: none;\n  padding-left: 0;\n}\n.hero .hero-keuntungan li[data-v-336c449e] {\n  line-height: 35px;\n}\n.hero .hero-description[data-v-336c449e],\n.hero .hero-keuntungan[data-v-336c449e] {\n  font-weight: 300;\n}\n@media (min-width: 992px) {\n.hero-description[data-v-336c449e] {\n    font-size: 20px;\n    line-height: 24px;\n}\n}", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.hero[data-v-336c449e] {\n  font-family: \"Montserrat\", sans-serif;\n}\n.hero .hero-keuntungan[data-v-336c449e] {\n  padding-left: 0;\n  list-style: none;\n  padding-left: 1.5em;\n  margin-left: 0;\n}\n.hero .hero-keuntungan li[data-v-336c449e] {\n  line-height: 33px;\n}\n.hero .hero-keuntungan .item-text[data-v-336c449e] {\n  overflow-wrap: break-word;\n}\n.hero .hero-keuntungan .item-text[data-v-336c449e]::before {\n  content: \"\\F058\";\n  font-family: FontAwesome;\n  color: #38c172;\n  position: absolute;\n  left: 0;\n  text-decoration: inherit;\n  margin-left: 10px;\n  font-size: 20px !important;\n}\n.hero .hero-description[data-v-336c449e],\n.hero .hero-keuntungan[data-v-336c449e] {\n  font-weight: 300;\n}\n@media (min-width: 992px) {\n.hero-description[data-v-336c449e] {\n    font-size: 20px;\n    line-height: 24px;\n}\n}", ""]);
 
 // exports
 
@@ -7231,7 +7229,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".hero-title[data-v-b97d14e0] {\n  font-weight: 700;\n}\n.hero-keuntungan[data-v-b97d14e0] {\n  list-style: none;\n  padding: 0;\n}\n.hero-description[data-v-b97d14e0],\n.hero-keuntungan[data-v-b97d14e0] {\n  font-weight: 300;\n}\n.hero[data-v-b97d14e0] {\n  text-align: center;\n}\n@media (min-width: 992px) {\n.hero[data-v-b97d14e0] {\n    font-family: \"Montserrat\", sans-serif;\n    color: #4c4c4c;\n    position: absolute;\n    bottom: 0;\n    margin: 0;\n    padding: 0;\n}\n.hero-keuntungan li[data-v-b97d14e0] {\n    margin-bottom: 10px;\n}\n.hero-keuntungan li .fa[data-v-b97d14e0] {\n    font-size: 18px;\n}\n.col-md[data-v-b97d14e0] {\n    margin-top: 20px;\n}\n}", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.hero-title[data-v-b97d14e0] {\n  font-weight: 700;\n}\n.hero-keuntungan[data-v-b97d14e0] {\n  padding-left: 0;\n  list-style: none;\n  padding-left: 1.5em;\n  margin-left: 0;\n}\n.hero-keuntungan li[data-v-b97d14e0] {\n  line-height: 33px;\n}\n.hero-keuntungan .item-text[data-v-b97d14e0] {\n  overflow-wrap: break-word;\n}\n.hero-keuntungan .item-text[data-v-b97d14e0]::before {\n  content: \"\\F058\";\n  font-family: FontAwesome;\n  color: #38c172;\n  position: absolute;\n  left: 0;\n  text-decoration: inherit;\n  margin-right: 10px;\n  font-size: 20px !important;\n}\n.hero-description[data-v-b97d14e0],\n.hero-keuntungan[data-v-b97d14e0] {\n  font-weight: 300;\n}\n.hero[data-v-b97d14e0] {\n  text-align: center;\n}\n@media (min-width: 992px) {\n.hero[data-v-b97d14e0] {\n    font-family: \"Montserrat\", sans-serif;\n    color: #4c4c4c;\n    position: absolute;\n    bottom: 0;\n    margin: 0;\n    padding: 0;\n}\n.hero-keuntungan li[data-v-b97d14e0] {\n    margin-bottom: 10px;\n}\n.hero-keuntungan li .fa[data-v-b97d14e0] {\n    font-size: 18px;\n}\n.col-md[data-v-b97d14e0] {\n    margin-top: 20px;\n}\n}", ""]);
 
 // exports
 
@@ -39957,16 +39955,8 @@ var render = function() {
               { staticClass: "hero-keuntungan mt-3 text-left" },
               [
                 _vm._l(_vm.daftarKelebihan, function(name, index) {
-                  return _c("li", { key: index }, [
-                    _c("i", {
-                      staticClass: "fa fa-check-circle text-success",
-                      attrs: { "aria-hidden": "true" }
-                    }),
-                    _vm._v(" "),
-                    _c("span", {
-                      staticClass: "ml-1",
-                      domProps: { innerHTML: _vm._s(name) }
-                    })
+                  return _c("li", { key: index, staticClass: "item-text" }, [
+                    _c("span", { domProps: { innerHTML: _vm._s(name) } })
                   ])
                 }),
                 _vm._v(" "),
@@ -40766,12 +40756,7 @@ var render = function() {
                 "ul",
                 { staticClass: "hero-keuntungan mt-3 text-left" },
                 _vm._l(_vm.daftarKelebihan, function(name, index) {
-                  return _c("li", { key: index }, [
-                    _c("i", {
-                      staticClass: "fa fa-check-circle text-success",
-                      attrs: { "aria-hidden": "true" }
-                    }),
-                    _vm._v(" "),
+                  return _c("li", { key: index, staticClass: "item-text" }, [
                     _c("span", { staticClass: "ml-1" }, [_vm._v(_vm._s(name))])
                   ])
                 }),
