@@ -1,37 +1,39 @@
 <template>
   <div class="d-flex justify-content-center mt-2">
-    <div class="row">
-      <div class="col" v-for="item in priceList" :key="item.priceId">
-        <div :class="'card' + (item.isBestSeller ? ' active-card' : '')" style="width: 18rem;">
-          <div class="label-price" v-show="item.isBestSeller">
-            <span>BEST SELLER!</span>
-          </div>
-          <div class="card-header">
-            <h5>{{titleCase(item.label)}}</h5>
-          </div>
-          <div class="card-body discount">
-            <s>Rp {{formatNumber(item.price)}}</s>
-            <h3 class="card-title">
-              <small class="currency">Rp</small>
-              <b>{{discount(item.discountPrice).priceBig}}</b>
-              <small class="price-small">
-                <b>.{{discount(item.discountPrice).priceSmall}}</b>/ bln
-              </small>
-            </h3>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <b>{{formatNumber(item.totalUsers)}}</b> Pengguna Terdaftar
-            </li>
-          </ul>
-          <div class="card-body">
-            <ul class="card-text text-center list-unstyled">
-              <li v-for="(feature, index) in item.features" :key="index" v-html="feature"></li>
+    <div class="container">
+      <div class="row">
+        <div class="col-md mt-3 mt-md-0" v-for="item in priceList" :key="item.priceId">
+          <div :class="'card' + (item.isBestSeller ? ' active-card' : '')" style="width: 18rem;">
+            <div class="label-price" v-show="item.isBestSeller">
+              <span>BEST SELLER!</span>
+            </div>
+            <div class="card-header">
+              <h5>{{titleCase(item.label)}}</h5>
+            </div>
+            <div class="card-body discount">
+              <s>Rp {{formatNumber(item.price)}}</s>
+              <h3 class="card-title">
+                <small class="currency">Rp</small>
+                <b>{{discount(item.discountPrice).priceBig}}</b>
+                <small class="price-small">
+                  <b>.{{discount(item.discountPrice).priceSmall}}</b>/ bln
+                </small>
+              </h3>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <b>{{formatNumber(item.totalUsers)}}</b> Pengguna Terdaftar
+              </li>
             </ul>
-            <button
-              type="submit"
-              class="btn btn-outline-dark rounded-pill mt-3"
-            >{{item.label == 'bisnis' ? 'Diskon 40%' : 'Pilih Sekarang'}}</button>
+            <div class="card-body">
+              <ul class="card-text text-center list-unstyled">
+                <li v-for="(feature, index) in item.features" :key="index" v-html="feature"></li>
+              </ul>
+              <button
+                type="submit"
+                class="btn btn-outline-dark rounded-pill mt-3"
+              >{{item.label == 'bisnis' ? 'Diskon 40%' : 'Pilih Sekarang'}}</button>
+            </div>
           </div>
         </div>
       </div>

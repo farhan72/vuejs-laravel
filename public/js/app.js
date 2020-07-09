@@ -2279,6 +2279,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "PriceCard",
   data: function data() {
@@ -41214,101 +41216,117 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "d-flex justify-content-center mt-2" }, [
-    _c(
-      "div",
-      { staticClass: "row" },
-      _vm._l(_vm.priceList, function(item) {
-        return _c("div", { key: item.priceId, staticClass: "col" }, [
-          _c(
+    _c("div", { staticClass: "container" }, [
+      _c(
+        "div",
+        { staticClass: "row" },
+        _vm._l(_vm.priceList, function(item) {
+          return _c(
             "div",
-            {
-              class: "card" + (item.isBestSeller ? " active-card" : ""),
-              staticStyle: { width: "18rem" }
-            },
+            { key: item.priceId, staticClass: "col-md mt-3 mt-md-0" },
             [
               _c(
                 "div",
                 {
-                  directives: [
-                    {
-                      name: "show",
-                      rawName: "v-show",
-                      value: item.isBestSeller,
-                      expression: "item.isBestSeller"
-                    }
-                  ],
-                  staticClass: "label-price"
+                  class: "card" + (item.isBestSeller ? " active-card" : ""),
+                  staticStyle: { width: "18rem" }
                 },
-                [_c("span", [_vm._v("BEST SELLER!")])]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-header" }, [
-                _c("h5", [_vm._v(_vm._s(_vm.titleCase(item.label)))])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body discount" }, [
-                _c("s", [_vm._v("Rp " + _vm._s(_vm.formatNumber(item.price)))]),
-                _vm._v(" "),
-                _c("h3", { staticClass: "card-title" }, [
-                  _c("small", { staticClass: "currency" }, [_vm._v("Rp")]),
+                [
+                  _c(
+                    "div",
+                    {
+                      directives: [
+                        {
+                          name: "show",
+                          rawName: "v-show",
+                          value: item.isBestSeller,
+                          expression: "item.isBestSeller"
+                        }
+                      ],
+                      staticClass: "label-price"
+                    },
+                    [_c("span", [_vm._v("BEST SELLER!")])]
+                  ),
                   _vm._v(" "),
-                  _c("b", [
-                    _vm._v(_vm._s(_vm.discount(item.discountPrice).priceBig))
+                  _c("div", { staticClass: "card-header" }, [
+                    _c("h5", [_vm._v(_vm._s(_vm.titleCase(item.label)))])
                   ]),
                   _vm._v(" "),
-                  _c("small", { staticClass: "price-small" }, [
-                    _c("b", [
-                      _vm._v(
-                        "." +
-                          _vm._s(_vm.discount(item.discountPrice).priceSmall)
-                      )
+                  _c("div", { staticClass: "card-body discount" }, [
+                    _c("s", [
+                      _vm._v("Rp " + _vm._s(_vm.formatNumber(item.price)))
                     ]),
-                    _vm._v("/ bln\n            ")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("ul", { staticClass: "list-group list-group-flush" }, [
-                _c("li", { staticClass: "list-group-item" }, [
-                  _c("b", [_vm._v(_vm._s(_vm.formatNumber(item.totalUsers)))]),
-                  _vm._v(" Pengguna Terdaftar\n          ")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body" }, [
-                _c(
-                  "ul",
-                  { staticClass: "card-text text-center list-unstyled" },
-                  _vm._l(item.features, function(feature, index) {
-                    return _c("li", {
-                      key: index,
-                      domProps: { innerHTML: _vm._s(feature) }
-                    })
-                  }),
-                  0
-                ),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-outline-dark rounded-pill mt-3",
-                    attrs: { type: "submit" }
-                  },
-                  [
-                    _vm._v(
-                      _vm._s(
-                        item.label == "bisnis" ? "Diskon 40%" : "Pilih Sekarang"
-                      )
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "card-title" }, [
+                      _c("small", { staticClass: "currency" }, [_vm._v("Rp")]),
+                      _vm._v(" "),
+                      _c("b", [
+                        _vm._v(
+                          _vm._s(_vm.discount(item.discountPrice).priceBig)
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("small", { staticClass: "price-small" }, [
+                        _c("b", [
+                          _vm._v(
+                            "." +
+                              _vm._s(
+                                _vm.discount(item.discountPrice).priceSmall
+                              )
+                          )
+                        ]),
+                        _vm._v("/ bln\n              ")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", { staticClass: "list-group list-group-flush" }, [
+                    _c("li", { staticClass: "list-group-item" }, [
+                      _c("b", [
+                        _vm._v(_vm._s(_vm.formatNumber(item.totalUsers)))
+                      ]),
+                      _vm._v(" Pengguna Terdaftar\n            ")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "card-body" }, [
+                    _c(
+                      "ul",
+                      { staticClass: "card-text text-center list-unstyled" },
+                      _vm._l(item.features, function(feature, index) {
+                        return _c("li", {
+                          key: index,
+                          domProps: { innerHTML: _vm._s(feature) }
+                        })
+                      }),
+                      0
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-outline-dark rounded-pill mt-3",
+                        attrs: { type: "submit" }
+                      },
+                      [
+                        _vm._v(
+                          _vm._s(
+                            item.label == "bisnis"
+                              ? "Diskon 40%"
+                              : "Pilih Sekarang"
+                          )
+                        )
+                      ]
                     )
-                  ]
-                )
-              ])
+                  ])
+                ]
+              )
             ]
           )
-        ])
-      }),
-      0
-    )
+        }),
+        0
+      )
+    ])
   ])
 }
 var staticRenderFns = []
