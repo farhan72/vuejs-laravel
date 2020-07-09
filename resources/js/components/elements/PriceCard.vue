@@ -1,30 +1,37 @@
 <template>
   <div class="d-flex justify-content-center mt-2">
     <div class="row">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <div class="label-price">
-            <span>BEST PRICE</span>
+      <div class="col" v-for="item in priceList" :key="item.priceId">
+        <div :class="'card' + (item.isBestSeller ? ' active-card' : '')" style="width: 18rem;">
+          <div class="label-price" v-show="item.isBestSeller">
+            <span>BEST SELLER!</span>
           </div>
           <div class="card-header">
-            <h5>Featured</h5>
+            <h5>{{titleCase(item.label)}}</h5>
           </div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p
-              class="card-text"
-            >With supporting text below as a natural lead-in to additional content.</p>
+          <div class="card-body discount">
+            <s>Rp {{formatNumber(item.price)}}</s>
+            <h3 class="card-title">
+              <small class="currency">Rp</small>
+              <b>{{discount(item.discountPrice).priceBig}}</b>
+              <small class="price-small">
+                <b>.{{discount(item.discountPrice).priceSmall}}</b>/ bln
+              </small>
+            </h3>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">
+              <b>{{formatNumber(item.totalUsers)}}</b> Pengguna Terdaftar
+            </li>
           </ul>
           <div class="card-body">
             <ul class="card-text text-center list-unstyled">
-              <li class="list-title">0.5x resource power</li>
-              <li>500MB</li>
-              <li>Unlimited Bandwidth</li>
+              <li v-for="(feature, index) in item.features" :key="index" v-html="feature"></li>
             </ul>
-            <button type="submit" class="btn btn-outline-dark rounded-pill mt-3">Pilih Sekarang</button>
+            <button
+              type="submit"
+              class="btn btn-outline-dark rounded-pill mt-3"
+            >{{item.label == 'bisnis' ? 'Diskon 40%' : 'Pilih Sekarang'}}</button>
           </div>
         </div>
       </div>
@@ -34,18 +41,50 @@
 
 <script>
 export default {
-  name: "PriceCard"
+  name: "PriceCard",
+  data: () => ({
+    priceList: []
+  }),
+  methods: {
+    async fetchAllData() {
+      await axios
+        .get("http://127.0.0.1:8000/api/price")
+        .then(result => (this.priceList = result.data.items))
+        .catch(e => console.log(e));
+    },
+    titleCase(value) {
+      return value.replace(/(?:^|\s|-)\S/g, x => x.toUpperCase());
+    },
+    formatNumber(num) {
+      let number = null;
+      if (num >= 0) {
+        number = num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
+      }
+      return number;
+    },
+    discount(number) {
+      const value = String(number);
+      return {
+        priceBig: value.slice(0, 2),
+        priceSmall: value.slice(value.length - 3)
+      };
+    }
+  },
+  created() {
+    this.fetchAllData();
+  }
 };
 </script>
 
 <style lang="scss" scoped>
 .row {
+  @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
   margin-top: 4rem;
   line-height: 21px;
   color: #3a4166;
 
   .card {
-    font-family: NunitoSansBold, sans-serif;
+    font-family: "NunitoSansBold", sans-serif;
     position: relative;
 
     .label-price {
@@ -116,6 +155,39 @@ export default {
 
   li {
     line-height: 26px;
+  }
+
+  .card-title {
+    font-size: 3em;
+
+    small {
+      font-size: 1rem;
+      position: relative;
+      top: -15px;
+    }
+
+    .currency {
+      left: 6px;
+    }
+
+    .price-small {
+      right: 10px;
+    }
+  }
+}
+
+.active-card {
+  border: 1px solid #008fee;
+  z-index: 10000;
+  .card-header,
+  .list-group-item,
+  .discount {
+    background-color: #008fee !important;
+    color: #fff;
+  }
+
+  .list-group-item {
+    background-color: #007fde !important;
   }
 }
 </style>
