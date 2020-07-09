@@ -2331,6 +2331,32 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "PriceCard",
   data: function data() {
@@ -2348,7 +2374,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             switch (_context.prev = _context.next) {
               case 0:
                 _context.next = 2;
-                return axios.get("http://localhost:8000/api/price").then(function (result) {
+                return axios.get("".concat("https://niaga-vuejs-laravel.herokuapp.com/", "/api/price")).then(function (result) {
                   return _this.priceList = result.data.items;
                 })["catch"](function (e) {
                   return console.log(e);
@@ -41427,7 +41453,7 @@ var render = function() {
                               )
                           )
                         ]),
-                        _vm._v("/ bln\n              ")
+                        _vm._v("/ bln\n                            ")
                       ])
                     ])
                   ]),
@@ -41437,7 +41463,9 @@ var render = function() {
                       _c("b", [
                         _vm._v(_vm._s(_vm.formatNumber(item.totalUsers)))
                       ]),
-                      _vm._v(" Pengguna Terdaftar\n            ")
+                      _vm._v(
+                        "\n                            Pengguna Terdaftar\n                        "
+                      )
                     ])
                   ]),
                   _vm._v(" "),
@@ -41462,11 +41490,13 @@ var render = function() {
                       },
                       [
                         _vm._v(
-                          _vm._s(
-                            item.label == "bisnis"
-                              ? "Diskon 40%"
-                              : "Pilih Sekarang"
-                          )
+                          "\n                            " +
+                            _vm._s(
+                              item.label == "bisnis"
+                                ? "Diskon 40%"
+                                : "Pilih Sekarang"
+                            ) +
+                            "\n                        "
                         )
                       ]
                     )
