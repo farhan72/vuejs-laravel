@@ -41223,14 +41223,11 @@ var render = function() {
         _vm._l(_vm.priceList, function(item) {
           return _c(
             "div",
-            { key: item.priceId, staticClass: "col-md mt-3 mt-md-0" },
+            { key: item.priceId, staticClass: "col-md mt-3 mt-md-0 p-0" },
             [
               _c(
                 "div",
-                {
-                  class: "card" + (item.isBestSeller ? " active-card" : ""),
-                  staticStyle: { width: "18rem" }
-                },
+                { class: "card" + (item.isBestSeller ? " active-card" : "") },
                 [
                   _c(
                     "div",

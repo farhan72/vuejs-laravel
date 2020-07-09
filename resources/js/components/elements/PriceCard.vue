@@ -2,8 +2,8 @@
   <div class="d-flex justify-content-center mt-2">
     <div class="container">
       <div class="row">
-        <div class="col-md mt-3 mt-md-0" v-for="item in priceList" :key="item.priceId">
-          <div :class="'card' + (item.isBestSeller ? ' active-card' : '')" style="width: 18rem;">
+        <div class="col-md mt-3 mt-md-0 p-0" v-for="item in priceList" :key="item.priceId">
+          <div :class="'card' + (item.isBestSeller ? ' active-card' : '')">
             <div class="label-price" v-show="item.isBestSeller">
               <span>BEST SELLER!</span>
             </div>
