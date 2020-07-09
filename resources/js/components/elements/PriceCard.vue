@@ -50,7 +50,7 @@ export default {
   methods: {
     async fetchAllData() {
       await axios
-        .get("http://127.0.0.1:8000/api/price")
+        .get("http://localhost:8000/api/price")
         .then(result => (this.priceList = result.data.items))
         .catch(e => console.log(e));
     },
