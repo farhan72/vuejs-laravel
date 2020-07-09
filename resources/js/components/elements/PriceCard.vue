@@ -76,7 +76,7 @@ export default {
     methods: {
         async fetchAllData() {
             await axios
-                .get(`${process.env.MIX_API_URL}api/price`)
+                .get(`https://niaga-vuejs-laravel.herokuapp.com/api/price`)
                 .then(result => (this.priceList = result.data.items))
                 .catch(e => console.log(e));
         },
