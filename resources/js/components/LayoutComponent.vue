@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-white main">
-    <Header />
-    <LandingPage />
-    <Footer />
-  </div>
+    <div class="bg-white main">
+        <Header />
+        <LandingPage />
+        <Footer />
+    </div>
 </template>
 
 <script>
@@ -16,14 +16,16 @@ export default { components: { Header, Footer, LandingPage } };
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
-
+body {
+    overflow-x: hidden;
+}
 .main {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 
-  .footer {
-    margin-top: auto;
-  }
+    .footer {
+        margin-top: auto;
+    }
 }
 </style>

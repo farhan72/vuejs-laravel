@@ -116,6 +116,7 @@ export default {
     .card {
         font-family: "NunitoSansBold", sans-serif;
         position: relative;
+        color: #4c4c4c;
 
         .label-price {
             width: 120px;
