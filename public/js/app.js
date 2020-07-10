@@ -2374,7 +2374,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             switch (_context.prev = _context.next) {
               case 0:
                 _context.next = 2;
-                return axios.get("https://niaga-vuejs-laravel.herokuapp.com/api/price").then(function (result) {
+                return axios.get("".concat("http://localhost:8000", "/api/price")).then(function (result) {
                   return _this.priceList = result.data.items;
                 })["catch"](function (e) {
                   return console.log(e);
